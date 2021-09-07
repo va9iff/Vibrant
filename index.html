@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="style.css" />
+		<title>adsiz</title>
+	</head>
+	<body>
+		<div id="main">
+			main
+			<div id="editorSide">
+				editorSide
+				<div id="editorWrapper">
+					<textarea id="editor">editor</textarea>
+				</div>
+			</div>
+			<div id="outputSide">
+				outputSide
+				<div id="menurow">menurow 
+					<button id="start">start</button>
+					<button id="pause">pause</button>
+				</div>
+
+				<div id="outputWrapper">
+					<div id="output">
+						<!-- for y coordinate to be normal, output is flipped. it placed in middle, so (0,0) origin is in the middle -->
+					</div>
+				</div>
+
+			</div>
+		</div>
+
+		<script src="Vector.js"></script>
+		<script src="Dot.js"></script>
+		<script src="core.js"></script>
+		<script src="outputMenu.js"></script>
+		<script src="app.js"></script>
+	</body>
+</html>
