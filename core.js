@@ -1,7 +1,6 @@
-var mainProcessId
-var time = 0
+var mainProcessId;
 
-var editor = document.querySelector('#editor')
+var editor = document.querySelector("#editor");
 
 function startProcess() {
 	let start = new Date().getTime();
@@ -22,36 +21,37 @@ function stopProcess() {
 	clearInterval(mainProcessId);
 }
 
-function start(){
-	startProcess()
-	startButton.onclick = reset
-	startButton.innerHTML = 'reset'
-
+function start() {
+	startProcess();
+	startButton.onclick = reset;
+	startButton.innerHTML = "reset";
 }
-function restart(){
-	eval(editor.value)
-	start()
-	startButton.className = 'resetongoing'
-
+function restart() {
+	eval(editor.value);
+	start();
+	startButton.className = "resetongoing";
 }
 
-function stop(){
-	stopProcess()
-	startButton.onclick = start
-	startButton.innerHTML = 'start'
+function stop() {
+	stopProcess();
+	startButton.onclick = start;
+	startButton.innerHTML = "start";
 }
 
-function reset(){
-	stop()
-	allDots.forEach((dot)=>dot.remove())
-	startButton.onclick = restart
-	startButton.innerHTML = '(re)start'
-	startButton.className = ''
+function reset() {
+	stop();
+	allDots.forEach((dot) => dot.remove());
+	startButton.onclick = restart;
+	startButton.innerHTML = "(re)start";
+	startButton.className = "";
+
+	consoleOutput = "";
+	visibleConsole.innerHTML = "";
 }
 
-var startButton = document.querySelector('#start')
-var pauseButton = document.querySelector('#pause')
+var startButton = document.querySelector("#start");
+var pauseButton = document.querySelector("#pause");
 
-startButton.onclick = restart
-pauseButton.onclick = stop
+startButton.onclick = restart;
+pauseButton.onclick = stop;
 // document.querySelector('#start').click()
