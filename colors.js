@@ -24,10 +24,11 @@ class Lime extends Dot{
 }
 
 class Mint extends Dot{
-	 color  = '#22ffff'
+	 static color  = '#22ffff'
+	 static radius = 40
 }
 
 class Pink extends Dot{
-	 color = '#f2f'
+	 static color = '#f2f'
 }
 

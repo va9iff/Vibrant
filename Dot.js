@@ -25,6 +25,7 @@ class Dot{
 
     this.visual()
     this.color = this.constructor.color
+    this.radius = this.constructor.radius
     // this.
 
     allDots.push(this)
@@ -33,6 +34,11 @@ class Dot{
 
   set color(newcolor){
     this.vis.style.backgroundColor = newcolor
+  }
+
+  set radius(newradius){
+    this.vis.style.width = newradius + 'px'
+    this.vis.style.height = newradius + 'px'
   }
 
   // defines how to look. it takes the node that which to add itself as argument
@@ -45,8 +51,8 @@ class Dot{
     // vis.style.left = '0px'
     // vis.style.backgroundColor = this.color
     // vis.style.backgroundColor = this.color
-    vis.style.width = this.radius + 'px'
-    vis.style.height = this.radius + 'px'
+    // vis.style.width = this.radius + 'px'
+    // vis.style.height = this.radius + 'px'
 
     output.append(vis)
 
