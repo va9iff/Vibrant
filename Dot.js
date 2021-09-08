@@ -2,6 +2,12 @@ var output = document.querySelector('#output')
 var allDots = []
 
 class Dot{
+  color =  'hsl(306, 94%, 54%)'
+  colorAsFun(){
+    // return '#f2f'
+    return '#333'
+  }
+
   constructor(x,y){
     this.pos = V(x,y)
     this.vel = V(2,3)
@@ -18,7 +24,9 @@ class Dot{
     vis.style.position= "absolute";
     vis.className = "Dot";
     vis.innerHTML = 'AFSD'
-    vis.style.left = '0px'
+    // vis.style.left = '0px'
+    // vis.style.backgroundColor = this.color
+    vis.style.backgroundColor = this.colorAsFun()
 
     return vis;
   }
@@ -68,8 +76,8 @@ class Dot{
   }
 
   mainProcess(){
-    this.process()
     this.processDynamic()
+    this.process()
     this.posfix();
   }
 }

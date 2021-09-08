@@ -74,8 +74,8 @@ body {
 }
 
 .Dot{
-	background-color: hsl(306, 94%, 54%);
-	/*background-color: #ff33aa;*/
+	/*background-color: hsl(306, 94%, 54%);*/
+	background-color: #333;
 	border-radius: 2rem;
 	height: 2rem;
 	width: 2rem;

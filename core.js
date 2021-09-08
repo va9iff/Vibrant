@@ -45,8 +45,9 @@ function reset() {
 	startButton.innerHTML = "(re)start";
 	startButton.className = "";
 
-	consoleOutput = "";
-	visibleConsole.innerHTML = "";
+	// maybe later
+	// consoleOutput = "";
+	// visibleConsole.innerHTML = "";
 }
 
 var startButton = document.querySelector("#start");
@@ -55,3 +56,6 @@ var pauseButton = document.querySelector("#pause");
 startButton.onclick = restart;
 pauseButton.onclick = stop;
 // document.querySelector('#start').click()
+
+
+// restart()
