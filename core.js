@@ -3,8 +3,11 @@ var mainProcessId;
 var editor = document.querySelector("#editor");
 
 function startProcess() {
+	allDots.forEach((dot)=>dot.init(...dot.args))
+
 	let start = new Date().getTime();
 	mainProcess(start);
+
 
 	mainProcessId = setInterval(mainProcess, 200, start);
 }

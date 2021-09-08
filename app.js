@@ -1,9 +1,9 @@
 editor.value = `
-let d = new Dot()
+let d = new Lime()
 d.vel = V(4,4)
-new Dot()
-new Dot(14,18)
-new Lime(50,-80)
+new Mint(50,-80)
+
+
 `
 
 restart()
