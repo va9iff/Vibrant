@@ -16,17 +16,3 @@ performance hit due to HTML Elements
 		fit canvas to cover #output.
 		in process, just consider the origin.
 		like add offsetWidth/2 to x.
-
-JS oop thing about extending that is unreally nice
-	you can write 
-	class Green extends Ball{
-		color='green'
-	}
-	and have instances green. 
-	it only calls constructor.
-	and you have nowhere to use this attr in child.
-	constructor will use parent's (Ball's) color in constructor.
-	well, because we call .init() after constructing.
-
-	this makes things a little less javascripty. 
-	but maybe we can add an option to auto init or not. or just say we do.

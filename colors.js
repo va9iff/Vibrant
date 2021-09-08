@@ -19,8 +19,8 @@
 // }
 
 class Lime extends Dot{
-	color  = '#2f2'
-	radius = 80
+	static color  = '#2f2'
+	static radius = 80
 }
 
 class Mint extends Dot{

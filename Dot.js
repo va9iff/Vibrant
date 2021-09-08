@@ -3,8 +3,10 @@ var allDots = []
 
 class Dot{
   // color =  'hsl(306, 94%, 54%)'
-  color =  '#555'
-  radius = 40
+
+  static color = '#f03'
+
+  static radius = 40
 
   processFuns = []
 
@@ -12,23 +14,25 @@ class Dot{
 
   }
 
-  constructor(x,y){
-    // this.init(x, y)
-    this.args=[...arguments]
-    allDots.push(this)
+  colorAsFun(){
+    return '#f2f'
+    // return '#333'
   }
 
-  init(x, y){    
+  constructor(x,y){
     this.pos = V(x,y)
     this.vel = V(2,3)
 
-
     this.visual()
-    this.color= this.color
-    this.radius = this.radius
+    this.color = this.constructor.color
+    // this.
 
     allDots.push(this)
     this.process=this.constructor.process
+  }
+
+  set color(newcolor){
+    this.vis.style.backgroundColor = newcolor
   }
 
   // defines how to look. it takes the node that which to add itself as argument
@@ -39,7 +43,8 @@ class Dot{
     vis.className = "Dot";
     vis.innerHTML = 'AFSD'
     // vis.style.left = '0px'
-    vis.style.backgroundColor = this.color
+    // vis.style.backgroundColor = this.color
+    // vis.style.backgroundColor = this.color
     vis.style.width = this.radius + 'px'
     vis.style.height = this.radius + 'px'
 
@@ -52,15 +57,6 @@ class Dot{
   remove(){
     allDots=allDots.filter((el)=>el!=this)
     this.vis.remove()
-  }
-
-  set color(ncolor){
-    this.vis.style.backgroundColor = ncolor
-  }
-
-  set radius(nradius){
-    this.vis.style.height = nradius + 'px'
-    this.vis.style.width = nradius + 'px'
   }
 
   // just add its velocity to position. the most basic physics simulation
