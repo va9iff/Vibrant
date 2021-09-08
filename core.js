@@ -13,7 +13,7 @@ function mainProcess(start) {
 	let end = new Date().getTime();
 	time = end - start;
 	allDots.forEach(function (instance) {
-		instance.process(time);
+		instance.mainProcess(time);
 	});
 }
 

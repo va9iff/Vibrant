@@ -1,0 +1,18 @@
+time variable bug with ui
+	after pause, when we start,
+	the start() will reset the time variable.
+
+jumbled processes
+	we have to divide processes, physics process and etc.
+everythink is on the process and now we can modify this.
+so we need to make it modular and modify what we want.
+
+performance hit due to HTML Elements
+	we don't use canvas. this css ways is so easy.
+	but may hit the performance as they grow in count.
+	but how will we make it like this?
+		take the output element's offsetWidth and offsetHeight.
+		resize canvas to this.
+		fit canvas to cover #output.
+		in process, just consider the origin.
+		like add offsetWidth/2 to x.

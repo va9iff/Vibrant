@@ -32,7 +32,7 @@ class Dot{
   processDynamic() {
     this.pos = this.pos["+"](this.vel);
     // this.lookAt(this.vel)
-    this.posfix();
+    // this.posfix();
   }
 
   lookAt(vec){
@@ -47,15 +47,14 @@ class Dot{
 
   static process(){
     
-  }
-
+  // }
   // do whatever you want here without calling super.process()
   // static process() {
   // it is static. we will make instance's 
   // process this function in constructor anyway.
   // this way, we can say Pink.process=function(){}
   // and override the default. and the default is this.
-  process() {
+  // process() {
     console.log(time)
 
     // this.vel=V(4,4)
@@ -66,6 +65,12 @@ class Dot{
     // console.log(this.vis.parentElement.offsetWidth )
     // console.log(time)
     this.processDynamic();
+  }
+
+  mainProcess(){
+    this.process()
+    this.processDynamic()
+    this.posfix();
   }
 }
 
