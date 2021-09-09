@@ -18,6 +18,8 @@
 
 new Dot(45,60).vel=V(6,8)
 
-restart()
+startProcess()
+
+// restart()
 
 // visualize()
