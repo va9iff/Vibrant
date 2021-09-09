@@ -20,12 +20,12 @@
 
 class Lime extends Dot{
 	static color  = '#2f2'
-	static radius = 80
+	static radius = 40
 }
 
 class Mint extends Dot{
 	 static color  = '#22ffff'
-	 static radius = 40
+	 static radius = 20
 }
 
 class Pink extends Dot{

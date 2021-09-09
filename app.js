@@ -1,19 +1,23 @@
 editor.value = `
 let d = new Dot()
 d.vel = V(4,4)
-new Dot()
-new Dot(14,18)
 
-new Lime(-50,0)
-new Mint(-25,-25).vel=V(-5,-8)
+new Lime()
 
-class MyClass extends Lime{
+d.color='blue'
+
+class myc{
 	static color = 'red'
-	static radius = 20
-	vel = V(0,-4) //make vel and all others static too to convenience
+	static radius = 60
+	static vel = V(7,5)
 }
 
-new MyClass()
+new myc()
+
 `
 
+// new Dot(45,60)
+
 restart()
+
+// visualize()

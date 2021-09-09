@@ -6,7 +6,8 @@ class Dot{
 
   static color = '#f03'
 
-  static radius = 40
+  static radius = 20
+  _radius = this.constructor.radius
 
   processFuns = []
 
@@ -19,9 +20,13 @@ class Dot{
     // return '#333'
   }
 
+  static pos = V(0,0)
+  static vel = V(0,0)
+
   constructor(x,y){
-    this.pos = V(x,y)
-    this.vel = V(2,3)
+    // this.pos = V(x,y)
+    this.pos = V(this.constructor.pos.x? this.constructor.pos.x:0, this.constructor.pos.y? this.constructor.pos.y:0)
+    this.vel = V(this.constructor.vel.x? this.constructor.vel.x:0, this.constructor.vel.y? this.constructor.vel.y:0)
 
     this.visual()
     this.color = this.constructor.color
@@ -36,12 +41,20 @@ class Dot{
     this.vis.style.backgroundColor = newcolor
   }
 
+  get radius(){
+    return this._radius
+  }
   set radius(newradius){
-    this.vis.style.width = newradius + 'px'
-    this.vis.style.height = newradius + 'px'
+    this._radius = newradius
+    this.vis.style.width = newradius*2 + 'px'
+    this.vis.style.height = newradius*2 + 'px'
   }
 
-  // defines how to look. it takes the node that which to add itself as argument
+  refresh(){
+    this.color=this.color
+    this.radius=this.radius
+  }
+
   visual() {
     let vis = document.createElement("div");
     vis.style.transitionDuration = this.constructor.tick + "ms";
@@ -92,16 +105,26 @@ class Dot{
   // this way, we can say Pink.process=function(){}
   // and override the default. and the default is this.
   // process() {
-    console.log(time)
+    // console.log(time)
 
     // this.vel=V(4,4)
-    if (this.pos.x>output.offsetWidth){this.vel.x=-4}
-    if (this.pos.y>output.offsetHeight){this.vel.y=-4}
-    if (this.pos.x<-output.offsetWidth){this.vel.x=4}
-    if (this.pos.y<-output.offsetHeight){this.vel.y=4}
+    // console.log(this.radius)
     // console.log(this.vis.parentElement.offsetWidth )
     // console.log(time)
+
+    this.keepInBox()
     this.processDynamic();
+  }
+
+  keepInBox(){
+    let absvel=[Math.abs(this.vel.x),Math.abs(this.vel.y)]
+    let borders = [output.offsetWidth, output.offsetHeight]
+
+    if (this.pos.x> borders[0]- this.radius){this.vel.x=-absvel[0]; this.pos.x=(borders[0])-this.radius}
+    if (this.pos.y> borders[1] - this.radius){this.vel.y=-absvel[1]; this.pos.y=(borders[1])-this.radius}
+    if (this.pos.x<-borders[0] + this.radius){this.vel.x=absvel[0]; this.pos.x=-(borders[0])+this.radius}
+    if (this.pos.y<-borders[1] + this.radius){this.vel.y=absvel[1]; this.pos.y=-(borders[1])+this.radius}
+
   }
 
   mainProcess(){

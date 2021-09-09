@@ -2,10 +2,26 @@ time variable bug with ui
 	after pause, when we start,
 	the start() will reset the time variable.
 
+color, radius and live preview
+	color and radius setter changes in the visual, ok.
+	but as we call them in parent's constructor, it'll 
+	use parent's values. and we cant preview normally.
+	so, in the constructor, it won't call visual. no, maybe not.
+	instead, lets use a refresh method. this will be called in
+	start() and live preview.
+	but cant have class `myClass{a=123; set a(value){}}` it is forbidden.
+	so in new classes, we should set color with `static`.
+
+live preview
+	after typed in editor, it'll setTimeout preview() that will
+	exec() and call all the dots refresh(). so colors, radius will be proper.
+	when you press before preview() called, it will abort, start setTout again.
+
+
 jumbled processes
 	we have to divide processes, physics process and etc.
-everythink is on the process and now we can modify this.
-so we need to make it modular and modify what we want.
+	everythink is on the process and now we can modify this.
+	so we need to make it modular and modify what we want.
 
 performance hit due to HTML Elements
 	we don't use canvas. this css ways is so easy.
@@ -16,3 +32,4 @@ performance hit due to HTML Elements
 		fit canvas to cover #output.
 		in process, just consider the origin.
 		like add offsetWidth/2 to x.
+

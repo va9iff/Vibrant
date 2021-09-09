@@ -2,11 +2,22 @@ var mainProcessId;
 
 var editor = document.querySelector("#editor");
 
+var tickDelay  = 100
+
+function visualize(){
+	// reset()
+	eval(editor.value);
+	allDots.forEach(
+		(dot)=>{dot.visual(), dot.posfix(), dot.refresh(), dot.process()}
+		)
+
+}
+
 function startProcess() {
 	let start = new Date().getTime();
 	mainProcess(start);
 
-	mainProcessId = setInterval(mainProcess, 200, start);
+	mainProcessId = setInterval(mainProcess, tickDelay, start);
 }
 
 function mainProcess(start) {
