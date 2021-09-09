@@ -1,0 +1,28 @@
+
+<link href="node_modules/prismjs/themes/prism-okaidia.css" rel="stylesheet" />
+
+<script src="node_modules/prismjs/prism.js"></script>
+
+
+<pre id="editor" class="language-js">
+	varojda
+</pre>
+
+<script type="module">
+
+import {CodeJar} from "./node_modules/codejar/codejar.js"
+
+const editor = document.querySelector('#editor');
+const jar = CodeJar(editor, Prism.highlightElement, {tab: '\t'});
+
+// Update code
+// jar.updateCode('let foo = bar');
+
+// Get code
+// let code = jar.toString();
+
+// Listen to updates
+jar.onUpdate(code => {
+	Prism.highlightElement(editor)
+});
+</script>

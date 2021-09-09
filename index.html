@@ -4,6 +4,7 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link rel="stylesheet" href="style.css" />
+		<!-- <link rel="stylesheet" href="nicer.css" /> -->
 		<title>adsiz</title>
 	</head>
 	<body>
@@ -12,14 +13,19 @@
 			<div id="editorSide">
 				editorSide
 				<div id="editorWrapper">
-					<textarea id="editor">
-						console.log('default')
-					</textarea>
+<!--  -->
+					<!-- <textarea id="editor" class="editor"> -->
+						<!-- console.log('default') -->
+					<!-- </textarea -->
+					<!-- > -->
+<!--  -->
+					<pre class="editor">console.log('default')</pre>
 				</div>
 			</div>
 			<div id="outputSide">
 				outputSide
-				<div id="menurow">menurow 
+				<div id="menurow">
+					menurow
 					<button id="start">start</button>
 					<button id="pause">pause</button>
 				</div>
@@ -31,9 +37,17 @@
 				</div>
 
 				<div id="visibleConsole"></div>
-
 			</div>
 		</div>
+
+		<!-- editor -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/monokai.min.css" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/highlight.min.js"></script>
+
+
+
+		<script type="module" src="editor.js"></script>
+		<!-- editor -->
 
 		<script src="Vector.js"></script>
 		<script src="Dot.js"></script>
