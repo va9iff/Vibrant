@@ -1,3 +1,11 @@
+import {time} from './builtIns.js'
+import {allDots,Dot} from './Dot.js'
+import {jar} from './editor.js'
+
+function runUserScript(){
+eval(jar.toString())
+}
+
 var mainProcessId;
 
 var editor = document.querySelector("#editor");
@@ -6,7 +14,8 @@ var tickDelay  = 100
 
 function visualize(){
 	// reset()
-	eval(editor.value);
+	// eval(editor.value);
+	runUserScript()
 	allDots.forEach(
 		(dot)=>{dot.visual(), dot.posfix(), dot.refresh(), dot.process()}
 		)
@@ -22,9 +31,9 @@ function startProcess() {
 
 function mainProcess(start) {
 	let end = new Date().getTime();
-	time = end - start;
+	let nowTime = end - start;
 	allDots.forEach(function (instance) {
-		instance.mainProcess(time);
+		instance.mainProcess(nowTime);
 	});
 }
 
@@ -38,7 +47,8 @@ function start() {
 	startButton.innerHTML = "reset";
 }
 function restart() {
-	eval(editor.value);
+	// eval(editor.value);
+	runUserScript()
 	start();
 	startButton.className = "resetongoing";
 }
@@ -70,3 +80,7 @@ pauseButton.onclick = stop;
 
 
 // restart()
+
+
+
+export {startProcess, mainProcess, stopProcess, start, restart, stop, reset}

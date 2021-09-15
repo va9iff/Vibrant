@@ -216,5 +216,5 @@ var V = (x, y) => new Vector(x, y);
 
 //
 //
-// export { Vector };
+export { Vector, V };
 // import { Vector } from "./vector.js";

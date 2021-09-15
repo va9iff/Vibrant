@@ -1,3 +1,5 @@
+import {V, Vector} from './Vector.js'
+
 var output = document.querySelector('#output')
 var allDots = []
 
@@ -134,4 +136,4 @@ class Dot{
   }
 }
 
-// export { Dynamic };
+export { Dot, allDots };

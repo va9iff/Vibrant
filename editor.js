@@ -14,3 +14,4 @@ const highlight = editor => {
 
 const jar = new CodeJar(editor, withLineNumbers(highlight))
 
+export {jar}

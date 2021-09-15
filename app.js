@@ -1,3 +1,9 @@
+import {Dot} from './Dot.js'
+import {V, Vector} from './Vector.js'
+
+import {startProcess, mainProcess, stopProcess, start, restart, stop, reset} from './core.js'
+
+
 // editor.value = `
 // let d = new Dot()
 // d.vel = V(4,4)
