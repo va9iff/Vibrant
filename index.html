@@ -5,13 +5,17 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link rel="stylesheet" href="style.css" />
 		<link rel="stylesheet" href="nicer.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="stylesheet">
+
 		<title>adsiz</title>
 	</head>
 	<body>
 		<div id="main">
-			main
+			<!-- main -->
 			<div id="editorSide">
-				editorSide
+				<!-- editorSide -->
 				<div id="editorWrapper">
 <!--  -->
 					<!-- <textarea id="editor" class="editor"> -->
@@ -19,15 +23,20 @@
 					<!-- </textarea -->
 					<!-- > -->
 <!--  -->
-					<pre class="editor">console.log('default')</pre>
+					<pre class="editor">
+for(let a=1; a<10; a++){
+	let d = new Dot()
+	d.vel.x=a*0.7
+	d.vel.y=a*0.3
+	
+	console.log(a)
+}</pre>
 				</div>
 			</div>
 			<div id="outputSide">
-				outputSide
 				<div id="menurow">
-					menurow
-					<button id="start">start</button>
-					<button id="pause">pause</button>
+					<button id="start" class="playButtons">start</button>
+					<button id="pause" class="playButtons">pause</button>
 				</div>
 
 				<div id="outputWrapper">

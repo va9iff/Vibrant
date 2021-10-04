@@ -1,0 +1,3047 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"log",
+				"console_log"
+			],
+			[
+				"lang",
+				"language-js\t(test.html)"
+			],
+			[
+				"hig",
+				"highlightElement\tabc"
+			],
+			[
+				"code",
+				"codejar\t(package.json)"
+			],
+			[
+				"coll",
+				"collide\tabc"
+			],
+			[
+				"vec",
+				"vectorTo\t(Vector.js)"
+			],
+			[
+				"argume",
+				"arguments\t(Vector.js)"
+			],
+			[
+				"radi",
+				"radius\t(Dot.js)"
+			],
+			[
+				"conso",
+				"console_log"
+			],
+			[
+				"dynamic",
+				"processDynamic"
+			],
+			[
+				"some",
+				"something\tabc"
+			],
+			[
+				"pro",
+				"process\tabc"
+			],
+			[
+				"transi",
+				"transition\tproperty"
+			],
+			[
+				"star",
+				"startButton\tabc"
+			],
+			[
+				"tras",
+				"transform\tproperty"
+			],
+			[
+				"eas",
+				"ease-in\tanimation-timing-function"
+			],
+			[
+				"baco",
+				"background-color\tproperty"
+			],
+			[
+				"reset",
+				"resetongoing\tabc"
+			],
+			[
+				"filter",
+				"filter\t: NodeFilter NodeIterator"
+			],
+			[
+				"pos",
+				"position\tabc"
+			],
+			[
+				"flex",
+				"flex\tproperty"
+			],
+			[
+				"wid",
+				"width\tproperty"
+			],
+			[
+				"que",
+				"querySelector\tabc"
+			],
+			[
+				"onc",
+				"onClick"
+			],
+			[
+				"cons",
+				"console\t(Dot.js)"
+			],
+			[
+				"setin",
+				"setInterval\t( handler: any, timeout?: long, arguments_..: any ): long Window"
+			],
+			[
+				"rel",
+				"relative\t(style.css)"
+			],
+			[
+				"ins",
+				"instance\tabc"
+			],
+			[
+				"main",
+				"mainProcess\tabc"
+			],
+			[
+				"st",
+				"style\t(Dynamic.js)"
+			],
+			[
+				"class",
+				"className\t: DOMString Element"
+			],
+			[
+				"fu",
+				"function\t(Vector.js)"
+			],
+			[
+				"vi",
+				"visual\tabc"
+			],
+			[
+				"bx",
+				"box-sizing\tproperty"
+			],
+			[
+				"has",
+				"hasStarted\tabc"
+			],
+			[
+				"sett",
+				"setTimeout\tabc"
+			],
+			[
+				"border",
+				"border\tproperty"
+			],
+			[
+				"setTime",
+				"setTimeout\t( handler: any, timeout?: long, arguments_..: any ): long Window"
+			],
+			[
+				"transio",
+				"transition-property\tproperty"
+			],
+			[
+				"trea",
+				"transition-delay\tproperty"
+			],
+			[
+				"transit",
+				"transition-duration\tabc"
+			],
+			[
+				"ease-in",
+				"ease-in-out\ttransition-timing-function"
+			],
+			[
+				"zin",
+				"z-index\tproperty"
+			],
+			[
+				"var",
+				"var(--r\tabc"
+			],
+			[
+				"fil",
+				"filter\tproperty"
+			],
+			[
+				"anim",
+				"animation-direction\tproperty"
+			],
+			[
+				"inli",
+				"inline\tdisplay"
+			],
+			[
+				"anima",
+				"animation-direction\tproperty"
+			],
+			[
+				"choi",
+				"choices\t(Popup.js)"
+			],
+			[
+				"fir",
+				"firstOpen\t(Interactive.js)"
+			],
+			[
+				"first",
+				"firstOpen\t(greetingYou.js)"
+			],
+			[
+				"t",
+				"timeout\tsetTimeout function"
+			],
+			[
+				"url",
+				"url\t: DOMString EventSource"
+			],
+			[
+				"fonts",
+				"fontSize\t = 'xx-large' Style CSS"
+			],
+			[
+				"showNext",
+				"showNextTour\t(Vevent.js)"
+			],
+			[
+				"rende",
+				"renderedButs\tabc"
+			],
+			[
+				"c",
+				"center\ttext-align"
+			],
+			[
+				"settim",
+				"setTimeout\t( handler: any, timeout?: long, arguments_..: any ): long Window"
+			],
+			[
+				"z",
+				"zIndex\t = 'inherit' Style CSS"
+			],
+			[
+				"cubic-bezie",
+				"cubic-bezier()\ttransition-timing-function"
+			],
+			[
+				"esa",
+				"ease-in-out\ttransition-timing-function"
+			],
+			[
+				"clas",
+				"className\t: DOMString Element"
+			],
+			[
+				"jus",
+				"justify-content\tproperty"
+			],
+			[
+				"men",
+				"menuItem\tabc"
+			],
+			[
+				"exens",
+				"extends"
+			],
+			[
+				"const",
+				"constructor\tabc"
+			],
+			[
+				"Obje",
+				"Object\t( value?: any ): Object Object"
+			],
+			[
+				"genera",
+				"generateChoices\tabc"
+			],
+			[
+				"new",
+				"newChoice\tabc"
+			],
+			[
+				"choice",
+				"choicetext\tabc"
+			],
+			[
+				"append",
+				"appendChild\tabc"
+			],
+			[
+				"oncl",
+				"onclick\t: EventHandler Document"
+			],
+			[
+				"row",
+				"row-reverse\tflex-direction"
+			],
+			[
+				"even",
+				"eventsui\tabc"
+			],
+			[
+				"bl",
+				"inline-block\tdisplay"
+			],
+			[
+				"fon",
+				"font-family\tproperty"
+			],
+			[
+				"ro",
+				"row-gap\tabc"
+			],
+			[
+				"gridte",
+				"grid-template-columns\tproperty"
+			],
+			[
+				"grid",
+				"grid-auto-flow\tproperty"
+			],
+			[
+				"grid-co",
+				"grid-column\tproperty"
+			],
+			[
+				"ali",
+				"align-items\tproperty"
+			],
+			[
+				"borde",
+				"border\tproperty"
+			],
+			[
+				"hsl",
+				"hsl()\tbackground-color"
+			],
+			[
+				"paddin",
+				"padding\tproperty"
+			],
+			[
+				"backco",
+				"backgroundColor\t = 'transparent' Style CSS"
+			],
+			[
+				"func",
+				"function\tabc"
+			],
+			[
+				"mar",
+				"margin\tproperty"
+			],
+			[
+				"tra",
+				"transform\t(app.js)"
+			],
+			[
+				"textal",
+				"text-align\tproperty"
+			],
+			[
+				"g",
+				"global\t: boolean RegExp"
+			],
+			[
+				"script",
+				"script\tEmmet"
+			],
+			[
+				"ex",
+				"extends\t(number_plugin.js)"
+			],
+			[
+				"number",
+				"number_blob\t(app.js)"
+			],
+			[
+				"number_",
+				"number_plugin\tabc"
+			],
+			[
+				"classli",
+				"classList\t: DOMTokenList Element"
+			],
+			[
+				"add",
+				"add\tabc"
+			],
+			[
+				"bordercol",
+				"border-color\tproperty"
+			],
+			[
+				"act",
+				"active\tabc"
+			],
+			[
+				"ac",
+				"active\tabc"
+			],
+			[
+				"inne",
+				"innerHTML\tabc"
+			],
+			[
+				"bord",
+				"border-box\tbox-sizing"
+			],
+			[
+				"boxs",
+				"box-sizing\tproperty"
+			],
+			[
+				"remov",
+				"remove\t(): void Element"
+			],
+			[
+				"click",
+				"onclick\t: EventHandler Window"
+			],
+			[
+				"blob",
+				"Blob\t( > blobParts: ArrayBuffer|ArrayBufferView|Blob|DOMString, options?: BlobPropertyBag ): Blob Blob"
+			],
+			[
+				"blo",
+				"Blob\t( > blobParts: ArrayBuffer|ArrayBufferView|Blob|DOMString, options?: BlobPropertyBag ): Blob Blob"
+			],
+			[
+				"tex",
+				"text_plugin\tabc"
+			],
+			[
+				"text",
+				"text_plugin\t(app.js)"
+			],
+			[
+				"exp",
+				"export\t(generals.js)"
+			],
+			[
+				"b",
+				"button\t(Blob.js)"
+			],
+			[
+				"cre",
+				"createElement\t( localName: DOMString ): Element Document"
+			],
+			[
+				"doc",
+				"document\t: Document Window"
+			],
+			[
+				"dc",
+				"documentation"
+			],
+			[
+				"docu",
+				"document\tabc"
+			],
+			[
+				"inden",
+				"indenting\tabc"
+			],
+			[
+				"funa",
+				"func_name\tabc"
+			],
+			[
+				"ne",
+				"nesting\tabc"
+			],
+			[
+				"nes",
+				"nesting\tabc"
+			],
+			[
+				"ind",
+				"indent_num\tabc"
+			],
+			[
+				"re",
+				"result\tabc"
+			],
+			[
+				"line",
+				"line_num\tabc"
+			],
+			[
+				"lin",
+				"line_num\tabc"
+			],
+			[
+				"bordrradius",
+				"border-radius\tproperty"
+			],
+			[
+				"padd",
+				"padding\tproperty"
+			],
+			[
+				"in",
+				"inline\t(style.css)"
+			],
+			[
+				"inline",
+				"inline-block\tdisplay"
+			],
+			[
+				"paddi",
+				"padding\tproperty"
+			],
+			[
+				"tran",
+				"transform\tproperty"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 1769,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "\n<!DOCTYPE html>\n<html lang=\"en\">\n\t<head>\n\t\t<meta charset=\"UTF-8\" />\n\t\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n\t\t<link rel=\"stylesheet\" href=\"style.css\" />\n\t\t<!-- <link rel=\"stylesheet\" href=\"nicer.css\" /> -->\n\t\t<title>adsiz</title>\n\t</head>\n\t<body>\n\t\t<div id=\"main\">\n\t\t\tmain\n\t\t\t<div id=\"editorSide\">\n\t\t\t\teditorSide\n\t\t\t\t<div id=\"editorWrapper\">\n\t\t\t\t<!--  -->\n\t\t\t\t\t<!-- <textarea id=\"editor\" class=\"editor\"> -->\n\t\t\t\t\t\t<!-- console.log('default') -->\n\t\t\t\t\t<!-- </textarea -->\n\t\t\t\t\t<!-- > -->\n\t\t\t\t<!--  -->\n\t\t\t\t\t<!-- <pre > -->\n\t\t\t\t\t<div style= \"width: 500px;height: 500px;\" class=\"editor language-js\" >console.log('default')</div>\n\t\t\t\t\t<!-- </div> -->\n</pre>\n\t\t\t</div>\n\t\t\t<div id=\"outputSide\">\n\t\t\t\toutputSide\n\t\t\t\t<div id=\"menurow\">\n\t\t\t\t\tmenurow\n\t\t\t\t\t<button id=\"start\">start</button>\n\t\t\t\t\t<button id=\"pause\">pause</button>\n\t\t\t\t</div>\n\n\t\t\t\t<div id=\"outputWrapper\">\n\t\t\t\t\t<div id=\"output\">\n\t\t\t\t\t\t<!-- for y coordinate to be normal, output is flipped. it placed in middle, so (0,0) origin is in the middle -->\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\n\t\t\t\t<div id=\"visibleConsole\"></div>\n\t\t\t</div>\n\t\t</div>\n\n\t\t<!-- editor -->\n<link href=\"https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/monokai.min.css\" rel=\"stylesheet\">\n<script src=\"https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/highlight.min.js\"></script>\n\n\n\n\t\t<script type=\"module\" src=\"editor.js\"></script>\n\t\t<!-- editor -->\n\n\t\t<script src=\"Vector.js\"></script>\n\t\t<script src=\"Dot.js\"></script>\n\t\t<script src=\"colors.js\"></script>\n\t\t<script src=\"builtins.js\"></script>\n\t\t<script src=\"core.js\"></script>\n\t\t<script src=\"outputMenu.js\"></script>\n\t\t<script src=\"app.js\"></script>\n\t</body>\n</html>\n",
+			"settings":
+			{
+				"buffer_size": 1687,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "test.html",
+			"settings":
+			{
+				"buffer_size": 1194,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "package.json",
+			"settings":
+			{
+				"buffer_size": 78,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "style.css",
+			"settings":
+			{
+				"buffer_size": 1912,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "nicer.css",
+			"settings":
+			{
+				"buffer_size": 84,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app.js",
+			"settings":
+			{
+				"buffer_size": 441,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "Searching 29 files for \"console.log('defa\"\n\nC:\\Users\\Vagif\\VGF\\web_development\\adsiz\\index.html:\n   16  <!--  -->\n   17  \t\t\t\t\t<!-- <textarea id=\"editor\" class=\"editor\"> -->\n   18: \t\t\t\t\t\t<!-- console.log('default') -->\n   19  \t\t\t\t\t<!-- </textarea -->\n   20  \t\t\t\t\t<!-- > -->\n   21  <!--  -->\n   22: \t\t\t\t\t<pre class=\"editor\">console.log('default')</pre>\n   23  \t\t\t\t</div>\n   24  \t\t\t</div>\n\n2 matches in 1 file\n",
+			"settings":
+			{
+				"buffer_size": 407,
+				"line_ending": "Windows",
+				"name": "Find Results",
+				"scratch": true
+			}
+		},
+		{
+			"file": "Dot.js",
+			"settings":
+			{
+				"buffer_size": 3851,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "Vector.js",
+			"settings":
+			{
+				"buffer_size": 4630,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "issues.txt",
+			"settings":
+			{
+				"buffer_size": 1338,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "colors.js",
+			"settings":
+			{
+				"buffer_size": 491,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "editor.js",
+			"settings":
+			{
+				"buffer_size": 545,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "core.js",
+			"settings":
+			{
+				"buffer_size": 2741,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "builtIns.js",
+			"settings":
+			{
+				"buffer_size": 285,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "test2.html",
+			"settings":
+			{
+				"buffer_size": 576,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "Packages/Personal/live server (cmd).sublime-build",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/PackageDev/Package/Convert to ....sublime-build",
+					""
+				],
+				[
+					"Packages/PackageDev/Package/Convert to ....sublime-build",
+					"JSON"
+				],
+				[
+					"Packages/PackageDev/Package/Convert to ....sublime-build",
+					"Property List"
+				],
+				[
+					"Packages/PackageDev/Package/Convert to ....sublime-build",
+					"YAML (Block Style)"
+				],
+				[
+					"Packages/PackageDev/Package/Convert to ....sublime-build",
+					"YAML (Default Style)"
+				],
+				[
+					"Packages/Personal/Chrome.sublime-build",
+					""
+				],
+				[
+					"Packages/Personal/Edge.sublime-build",
+					""
+				],
+				[
+					"Packages/Personal/index in Edgede.sublime-build",
+					""
+				],
+				[
+					"Packages/Personal/live server (cmd).sublime-build",
+					""
+				],
+				[
+					"Packages/Personal/live server.sublime-build",
+					""
+				],
+				[
+					"Packages/Personal/open cmd here.sublime-build",
+					""
+				],
+				[
+					"Packages/Personal/Prettier - code format.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/Personal/live server (cmd).sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/PackageDev/Package/Convert to ....sublime-build",
+					""
+				],
+				[
+					"Packages/PackageDev/Package/Convert to ....sublime-build",
+					"JSON"
+				],
+				[
+					"Packages/PackageDev/Package/Convert to ....sublime-build",
+					"Property List"
+				],
+				[
+					"Packages/PackageDev/Package/Convert to ....sublime-build",
+					"YAML (Block Style)"
+				],
+				[
+					"Packages/PackageDev/Package/Convert to ....sublime-build",
+					"YAML (Default Style)"
+				],
+				[
+					"Packages/Personal/Chrome.sublime-build",
+					""
+				],
+				[
+					"Packages/Personal/Edge.sublime-build",
+					""
+				],
+				[
+					"Packages/Personal/index in Edgede.sublime-build",
+					""
+				],
+				[
+					"Packages/Personal/live server.sublime-build",
+					""
+				],
+				[
+					"Packages/Personal/Prettier - code format.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/Personal/Prettier - code format.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/PackageDev/Package/Convert to ....sublime-build",
+					""
+				],
+				[
+					"Packages/PackageDev/Package/Convert to ....sublime-build",
+					"JSON"
+				],
+				[
+					"Packages/PackageDev/Package/Convert to ....sublime-build",
+					"Property List"
+				],
+				[
+					"Packages/PackageDev/Package/Convert to ....sublime-build",
+					"YAML (Block Style)"
+				],
+				[
+					"Packages/PackageDev/Package/Convert to ....sublime-build",
+					"YAML (Default Style)"
+				],
+				[
+					"Packages/Personal/Chrome.sublime-build",
+					""
+				],
+				[
+					"Packages/Personal/cmd.sublime-build",
+					""
+				],
+				[
+					"Packages/Personal/Edge.sublime-build",
+					""
+				],
+				[
+					"Packages/Personal/index in Edgede.sublime-build",
+					""
+				],
+				[
+					"Packages/Personal/live server (cmd).sublime-build",
+					""
+				],
+				[
+					"Packages/Personal/live server.sublime-build",
+					""
+				],
+				[
+					"Packages/Personal/open cmd here.sublime-build",
+					""
+				],
+				[
+					"Packages/Personal/Prettier - code format.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/Personal/open cmd here.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/PackageDev/Package/Convert to ....sublime-build",
+					""
+				],
+				[
+					"Packages/PackageDev/Package/Convert to ....sublime-build",
+					"JSON"
+				],
+				[
+					"Packages/PackageDev/Package/Convert to ....sublime-build",
+					"Property List"
+				],
+				[
+					"Packages/PackageDev/Package/Convert to ....sublime-build",
+					"YAML (Block Style)"
+				],
+				[
+					"Packages/PackageDev/Package/Convert to ....sublime-build",
+					"YAML (Default Style)"
+				],
+				[
+					"Packages/User/Edge vgf.sublime-build",
+					""
+				],
+				[
+					"Packages/User/indexi_edgede_acan.sublime-build",
+					""
+				],
+				[
+					"Packages/User/Prettier code format vgf.sublime-build",
+					""
+				],
+				[
+					"Packages/User/VGF Google Chrome.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/User/Prettier code format vgf.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/Personal/Chrome.sublime-build",
+					""
+				],
+				[
+					"Packages/Personal/Edge.sublime-build",
+					""
+				],
+				[
+					"Packages/Personal/index in Edgede.sublime-build",
+					""
+				],
+				[
+					"Packages/Personal/live server (cmd).sublime-build",
+					""
+				],
+				[
+					"Packages/Personal/live server.sublime-build",
+					""
+				],
+				[
+					"Packages/Personal/open cmd here.sublime-build",
+					""
+				],
+				[
+					"Packages/Personal/Prettier - code format.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/Personal/live server (cmd).sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/Personal/Chrome.sublime-build",
+					""
+				],
+				[
+					"Packages/Personal/Edge.sublime-build",
+					""
+				],
+				[
+					"Packages/Personal/index in Edgede.sublime-build",
+					""
+				],
+				[
+					"Packages/Personal/live server.sublime-build",
+					""
+				],
+				[
+					"Packages/Personal/Prettier - code format.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/Personal/Prettier - code format.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/Personal/Chrome.sublime-build",
+					""
+				],
+				[
+					"Packages/Personal/Edge.sublime-build",
+					""
+				],
+				[
+					"Packages/Personal/index in Edgede.sublime-build",
+					""
+				],
+				[
+					"Packages/Personal/live server.sublime-build",
+					""
+				],
+				[
+					"Packages/Personal/open cmd here.sublime-build",
+					""
+				],
+				[
+					"Packages/Personal/Prettier - code format.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/Personal/live server.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/Personal/Chrome.sublime-build",
+					""
+				],
+				[
+					"Packages/Personal/cmd.sublime-build",
+					""
+				],
+				[
+					"Packages/Personal/Edge.sublime-build",
+					""
+				],
+				[
+					"Packages/Personal/index in Edgede.sublime-build",
+					""
+				],
+				[
+					"Packages/Personal/live server (cmd).sublime-build",
+					""
+				],
+				[
+					"Packages/Personal/live server.sublime-build",
+					""
+				],
+				[
+					"Packages/Personal/open cmd here.sublime-build",
+					""
+				],
+				[
+					"Packages/Personal/Prettier - code format.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/Personal/live server (cmd).sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				],
+				[
+					"Packages/Personal/Chrome.sublime-build",
+					""
+				],
+				[
+					"Packages/Personal/Edge.sublime-build",
+					""
+				],
+				[
+					"Packages/Personal/index in Edgede.sublime-build",
+					""
+				],
+				[
+					"Packages/Personal/live server.sublime-build",
+					""
+				],
+				[
+					"Packages/Personal/open cmd here.sublime-build",
+					""
+				],
+				[
+					"Packages/Personal/Prettier - code format.sublime-build",
+					""
+				],
+				[
+					"Packages/Personal/Python (cmd).sublime-build",
+					""
+				],
+				[
+					"Packages/Personal/Python Terminus tab.sublime-build",
+					""
+				],
+				[
+					"Packages/Personal/Python Terminus.sublime-build",
+					""
+				],
+				[
+					"Packages/Personal/Python Terminus.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				],
+				[
+					"Packages/User/Edge vgf.sublime-build",
+					""
+				],
+				[
+					"Packages/User/Python Terminus tab.sublime-build",
+					""
+				],
+				[
+					"Packages/User/Python Terminus.sublime-build",
+					""
+				],
+				[
+					"Packages/User/Python Terminus.sublime-build",
+					"Syntax Check"
+				],
+				[
+					"Packages/User/SoR main sublime native  cmd.sublime-build",
+					""
+				],
+				[
+					"Packages/User/SoR mainpy file opener python with cmd.sublime-build",
+					""
+				],
+				[
+					"Packages/User/VGF Google Chrome.sublime-build",
+					""
+				],
+				[
+					"Packages/User/VGFmeliomain.sublime-build",
+					""
+				],
+				[
+					"Packages/User/VGFpythonshell.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				],
+				[
+					"Packages/User/Edge vgf.sublime-build",
+					""
+				],
+				[
+					"Packages/User/indexi_edgede_acan.sublime-build",
+					""
+				],
+				[
+					"Packages/User/Python Terminus tab.sublime-build",
+					""
+				],
+				[
+					"Packages/User/Python Terminus.sublime-build",
+					""
+				],
+				[
+					"Packages/User/Python Terminus.sublime-build",
+					"Syntax Check"
+				],
+				[
+					"Packages/User/SoR main sublime native  cmd.sublime-build",
+					""
+				],
+				[
+					"Packages/User/SoR mainpy file opener python with cmd.sublime-build",
+					""
+				],
+				[
+					"Packages/User/VGF Google Chrome.sublime-build",
+					""
+				],
+				[
+					"Packages/User/VGFpythonshell.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				],
+				[
+					"Packages/User/Edge vgf.sublime-build",
+					""
+				],
+				[
+					"Packages/User/indexi_edgede_acan.sublime-build",
+					""
+				],
+				[
+					"Packages/User/Python Terminus tab.sublime-build",
+					""
+				],
+				[
+					"Packages/User/Python Terminus.sublime-build",
+					""
+				],
+				[
+					"Packages/User/Python Terminus.sublime-build",
+					"Syntax Check"
+				],
+				[
+					"Packages/User/VGF Google Chrome.sublime-build",
+					""
+				],
+				[
+					"Packages/User/VGFpythonshell.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/User/Python Terminus.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				],
+				[
+					"Packages/User/Python Terminus tab.sublime-build",
+					""
+				],
+				[
+					"Packages/User/Python Terminus tab.sublime-build",
+					"Syntax Check"
+				],
+				[
+					"Packages/User/Python Terminus.sublime-build",
+					""
+				],
+				[
+					"Packages/User/Python Terminus.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/User/Python Terminus tab.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				],
+				[
+					"Packages/User/Python Terminus tab.sublime-build",
+					""
+				],
+				[
+					"Packages/User/Python Terminus.sublime-build",
+					""
+				],
+				[
+					"Packages/User/Python Terminus.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/User/Python Terminus.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				],
+				[
+					"Packages/User/Python Terminus.sublime-build",
+					""
+				],
+				[
+					"Packages/User/Python Terminus.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/User/Edge vgf.sublime-build",
+					""
+				],
+				[
+					"Packages/User/SoR main sublime native  cmd.sublime-build",
+					""
+				],
+				[
+					"Packages/User/VGF Google Chrome.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/User/Edge vgf.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/User/Edge vgf.sublime-build",
+					""
+				],
+				[
+					"Packages/User/indexi_edgede_acan.sublime-build",
+					""
+				],
+				[
+					"Packages/User/SoR main sublime native  cmd.sublime-build",
+					""
+				],
+				[
+					"Packages/User/VGF Google Chrome.sublime-build",
+					""
+				],
+				[
+					"Packages/User/VGFmeliomain.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/User/Edge vgf.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/User/Python Terminus.sublime-build",
+					""
+				],
+				[
+					"Packages/User/Python Terminus.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/User/Python Terminus.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/User/VGFpython.sublime-build",
+					""
+				],
+				[
+					"Packages/User/VGFpython.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/User/VGFpython.sublime-build",
+				"Syntax Check"
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"schme ui",
+				"UI: Select Color Scheme"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"schee",
+				"UI: Select Color Scheme"
+			],
+			[
+				"arit",
+				"Arithmetic"
+			],
+			[
+				"scheme ui",
+				"UI: Select Color Scheme"
+			],
+			[
+				"set mdown",
+				"Set Syntax: MultiMarkdown"
+			],
+			[
+				"scheme",
+				"Set Syntax: Sublime Text Color Scheme (JSON)"
+			],
+			[
+				"m",
+				"Set Syntax: Markdown"
+			],
+			[
+				"setting",
+				"Preferences: Settings"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"uischeme",
+				"UI: Select Color Scheme"
+			],
+			[
+				"theme",
+				"UI: Select Theme"
+			],
+			[
+				"settxt",
+				"Set Syntax: Plain Text"
+			],
+			[
+				"setjs",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"setsyjs",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"ui scheme",
+				"UI: Select Color Scheme"
+			],
+			[
+				"set js",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"wrap",
+				"Emmet: Wrap with Abbreviation"
+			],
+			[
+				"ar",
+				"Arithmetic"
+			],
+			[
+				"ARI",
+				"Arithmetic"
+			],
+			[
+				"ARIT",
+				"Arithmetic"
+			],
+			[
+				"ari",
+				"Arithmetic"
+			],
+			[
+				"scheme uio",
+				"UI: Select Color Scheme"
+			],
+			[
+				"package",
+				"PackageDev: Open Package"
+			],
+			[
+				"packagelis",
+				"Package Control: List Packages"
+			],
+			[
+				"set javas",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"set java",
+				"Set Syntax: Java"
+			],
+			[
+				"set theme ui",
+				"UI: Select Theme"
+			],
+			[
+				"browse",
+				"Preferences: Browse Packages"
+			],
+			[
+				"set javsc",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"scheme set",
+				"UI: Select Color Scheme"
+			],
+			[
+				"javas syntax",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"package list",
+				"Package Control: List Packages"
+			],
+			[
+				"scheme selec",
+				"UI: Select Color Scheme"
+			],
+			[
+				"css",
+				"Set Syntax: CSS"
+			],
+			[
+				"cmd",
+				"Build With: cmd"
+			],
+			[
+				"css set",
+				"Set Syntax: CSS"
+			],
+			[
+				"termunus ",
+				"Terminus: Open Default Shell in Tab (View)"
+			],
+			[
+				"schene",
+				"Set Syntax: Sublime Text Color Scheme (JSON)"
+			],
+			[
+				"swap",
+				"Convert Case: Swap Case"
+			],
+			[
+				"arith",
+				"Arithmetic"
+			],
+			[
+				"javasc",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"markdown",
+				"Set Syntax: Markdown"
+			],
+			[
+				"wra",
+				"Emmet: Wrap with Abbreviation"
+			],
+			[
+				"war",
+				"Emmet: Wrap with Abbreviation"
+			],
+			[
+				"a",
+				"Arithmetic"
+			],
+			[
+				"ARITH",
+				"Arithmetic"
+			],
+			[
+				"set",
+				"Set Syntax: TypeScript"
+			],
+			[
+				"set syntax typesci",
+				"Set Syntax: TypeScript"
+			],
+			[
+				"packate install",
+				"Package Control: Install Package"
+			],
+			[
+				"preferen",
+				"Preferences: Settings"
+			],
+			[
+				"terminus",
+				"Terminus: Close All"
+			],
+			[
+				"terminuso",
+				"Terminus: Open Default Shell in Panel"
+			],
+			[
+				"settings",
+				"Preferences: Settings"
+			],
+			[
+				"preferenc",
+				"Preferences: Settings"
+			],
+			[
+				"enalb",
+				"Package Control: Enable Package"
+			],
+			[
+				"set jas",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"enable",
+				"Package Control: Enable Package"
+			],
+			[
+				"disable",
+				"Package Control: Disable Package"
+			],
+			[
+				"select ",
+				"Emmet: Select Next Item"
+			],
+			[
+				"emmet ",
+				"Emmet: Wrap with Abbreviation"
+			],
+			[
+				"emmet expa",
+				"Emmet: Expand Abbreviation"
+			],
+			[
+				"new build",
+				"Build: New Build System"
+			],
+			[
+				"brows",
+				"Preferences: Browse Packages"
+			],
+			[
+				"pair",
+				"Emmet: Go to Tag Pair"
+			],
+			[
+				"sche",
+				"UI: Select Color Scheme"
+			],
+			[
+				"sch",
+				"UI: Select Color Scheme"
+			],
+			[
+				"set syntax html",
+				"Set Syntax: HTML"
+			],
+			[
+				"view",
+				"View Package File"
+			],
+			[
+				"prefe",
+				"Preferences: Settings"
+			],
+			[
+				"schrm",
+				"UI: Select Color Scheme"
+			],
+			[
+				"GP to api",
+				"Emmet: Go to Tag Pair"
+			],
+			[
+				"goto pair",
+				"Emmet: Go to Tag Pair"
+			],
+			[
+				"emmet tag",
+				"Emmet: Go to Tag Pair"
+			],
+			[
+				"expand",
+				"Emmet: Expand Abbreviation"
+			],
+			[
+				"instalal",
+				"Package Control: Install Package"
+			],
+			[
+				"packages list",
+				"Package Control: List Packages"
+			],
+			[
+				"schme",
+				"PackageDev: New Color Scheme"
+			],
+			[
+				"aitme",
+				"Arithmetic"
+			],
+			[
+				"vi",
+				"View Package File"
+			],
+			[
+				"new theme",
+				"PackageDev: New Theme"
+			],
+			[
+				"settin",
+				"Preferences: Settings"
+			],
+			[
+				"brow",
+				"Preferences: Browse Packages"
+			],
+			[
+				"brose",
+				"Preferences: Browse Packages"
+			],
+			[
+				"remove ",
+				"Package Control: Remove Package"
+			],
+			[
+				"lis",
+				"Package Control: List Packages"
+			],
+			[
+				"themes",
+				"Set Syntax: Sublime Text Theme (JSON)"
+			],
+			[
+				"them",
+				"Set Syntax: Sublime Text Theme (JSON)"
+			],
+			[
+				"th",
+				"UI: Select Theme"
+			],
+			[
+				"remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"enabl",
+				"Package Control: Enable Package"
+			],
+			[
+				"broese",
+				"File: Open In Browser - Testing Server"
+			],
+			[
+				"key bindings",
+				"Preferences: Key Bindings"
+			],
+			[
+				"synhtml",
+				"Set Syntax: HTML"
+			],
+			[
+				"syntax html",
+				"Set Syntax: HTML"
+			],
+			[
+				"schm",
+				"PackageDev: New Color Scheme"
+			],
+			[
+				"sc",
+				"UI: Select Color Scheme"
+			],
+			[
+				"set theme",
+				"Set Syntax: Sublime Text Theme (JSON)"
+			],
+			[
+				"schemes",
+				"Set Syntax: Sublime Text Color Scheme (JSON)"
+			],
+			[
+				"schem",
+				"UI: Select Color Scheme"
+			],
+			[
+				"scehem",
+				"UI: Select Color Scheme"
+			],
+			[
+				"package lis",
+				"Package Control: List Packages"
+			],
+			[
+				"disabl",
+				"Package Control: Disable Package"
+			],
+			[
+				"aritm",
+				"Arithmetic"
+			],
+			[
+				"ui",
+				"UI: Select Color Scheme"
+			],
+			[
+				"color scheme",
+				"UI: Select Color Scheme"
+			],
+			[
+				"color",
+				"UI: Select Color Scheme"
+			],
+			[
+				"resource",
+				"PackageResourceViewer: Extract Package"
+			],
+			[
+				"colorscheme",
+				"UI: Select Color Scheme"
+			],
+			[
+				"the",
+				"UI: Select Theme"
+			],
+			[
+				"tht",
+				"Terminus Utilities: Select Theme"
+			],
+			[
+				"syntax sublime theme",
+				"Set Syntax: Sublime Text Theme (JSON)"
+			],
+			[
+				"\\",
+				"Set Syntax: TextMate Preferences (PList / XML)"
+			],
+			[
+				"colorsub",
+				"Colorsublime: Install Theme"
+			],
+			[
+				"color subl",
+				"Colorsublime: Install Theme"
+			],
+			[
+				"edit",
+				"PackageDev: Edit Current Theme"
+			],
+			[
+				"UI",
+				"UI: Select Theme"
+			],
+			[
+				"colo",
+				"UI: Select Color Scheme"
+			],
+			[
+				"new colo",
+				"PackageDev: New Color Scheme"
+			],
+			[
+				"color s",
+				"UI: Select Color Scheme"
+			],
+			[
+				"new color",
+				"PackageDev: New Color Scheme"
+			],
+			[
+				"u",
+				"UI: Select Color Scheme"
+			],
+			[
+				"edit theme",
+				"PackageDev: Edit Current Theme"
+			],
+			[
+				"theme edi",
+				"PackageDev: Edit Current Theme"
+			],
+			[
+				"prv",
+				"PackageDev: Edit Current Theme"
+			],
+			[
+				"terminus theme",
+				"Terminus Utilities: Select Theme"
+			],
+			[
+				"terminus ",
+				"Terminus: List Shells"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 414.0,
+		"history":
+		[
+			"view.settings().set(\"color_scheme\", \"Monokai.sublime-color-scheme\")",
+			"__name__=='__main__'",
+			"__module__",
+			"__name__",
+			"ok",
+			"2*2",
+			"exit()",
+			"exit",
+			"break",
+			"quit()",
+			"exit()",
+			"exit",
+			"exit()",
+			"exit",
+			"exit()",
+			"view.settings().set(\"color_scheme\", \"FiraCode.sublime-color-scheme\")",
+			"view.settings().set(\\\"color_scheme\\\", \\\"FiraCode.sublime-color-scheme\\\")",
+			"functions()",
+			"functions",
+			"set_color_scheme(\"Advanture Time\")",
+			"reloading Packages/User/ColorHighlighter.sublime-settings",
+			"cls",
+			"print(\"VGF\")",
+			"clear()",
+			"clear(",
+			"clear",
+			"vut?",
+			"x",
+			"z",
+			"view.settings().set(\"Theme\", \"Fits.sublime-theme\")",
+			"view.settings().set(\"color_scheme\", \"user\")",
+			"sublime.log_commands(False)",
+			"view.settings().set(\"color_scheme\", \"VGFsecondscheme.sublime-color-scheme\")",
+			"view.settings().set(\"color_scheme\", \"Seti_monokai.sublime-color-scheme\")",
+			"view.settings().set(\"color_scheme\", \"VGFsecondscheme.sublime-color-scheme\")",
+			"sublime.log_commands(True)",
+			"view.settings().set(\"color_scheme\", \"VGFsecondscheme.sublime-color-scheme\")",
+			"view.settings().set(\"color_scheme\", \"VGFsamplecolor.sublime-color-scheme\")",
+			"view.settings().set(\"color_scheme\", \"VGFsecondscheme.sublime-color-scheme\")",
+			"view.settings().set(\"color_scheme\", \"VGFsamplecolor.sublime-color-scheme\")",
+			"sublime.arch()"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": false,
+		"show_minimap": false,
+		"show_open_files": true,
+		"show_tabs": true,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/Vagif/VGF/web_development/adsiz",
+		"/C/Users/Vagif/VGF/web_development/adsiz/node_modules"
+	],
+	"file_history":
+	[
+		"/C/Users/Vagif/VGF/web_development/adsiz/node_modules/prismjs/components/prism-css.min.js",
+		"/C/Users/Vagif/VGF/web_development/adsiz/editor",
+		"/C/Users/Vagif/VGF/web_development/adsiz/Vector.js",
+		"/C/Users/Vagif/VGF/web_development/adsiz/howToSetProcess.js",
+		"/C/Users/Vagif/VGF/web_development/adsiz/outputMenu.js",
+		"/C/Users/Vagif/VGF/web_development/adsiz/builtIns.js",
+		"/C/Users/Vagif/VGF/web_development/adsiz/issues.txt",
+		"/C/Users/Vagif/VGF/web_development/adsiz/issues.js",
+		"/C/Users/Vagif/VGF/web_development/adsiz/core.js",
+		"/C/Users/Vagif/VGF/web_development/adsiz/style.css",
+		"/C/Users/Vagif/VGF/web_development/adsiz/app.js",
+		"/C/Users/Vagif/VGF/web_development/Plade/Dynamic.js",
+		"/C/Users/Vagif/VGF/web_development/Plade/Velegant.js",
+		"/C/Users/Vagif/VGF/web_development/Plade/devImport.js",
+		"/C/Users/Vagif/VGF/web_development/Plade/import.js",
+		"/C/Users/Vagif/VGF/web_development/Plade/Ticker.js",
+		"/C/Users/Vagif/VGF/web_development/Plade/dev_example.html",
+		"/C/Users/Vagif/VGF/web_development/Plade/Vome.js",
+		"/C/Users/Vagif/AppData/Roaming/Sublime Text 3/Packages/Histamine/Histamine.sublime-theme",
+		"/C/Users/Vagif/VGF/web_development/Plade/simple_example.html",
+		"/C/Users/Vagif/VGF/web_development/Plade/testfol/test2.html",
+		"/C/Users/Vagif/VGF/web_development/Plade/testfol/test.html",
+		"/C/Users/Vagif/Desktop/dev_example.html",
+		"/C/Users/Vagif/VGF/web_development/Plade/README.md",
+		"/C/Users/Vagif/VGF/web_development/raPDF/package.json",
+		"/C/Users/Vagif/VGF/web_development/raPDF/node_modules/html2pdf.js/dist/html2pdf.js",
+		"/C/Users/Vagif/VGF/web_development/raPDF/node_modules/html2canvas/dist/html2canvas.js",
+		"/C/Users/Vagif/VGF/web_development/floating_hover/HoverFloating.js",
+		"/C/Users/Vagif/VGF/web_development/overrule/Vevent.js",
+		"/C/Users/Vagif/VGF/web_development/overrule/Tour.js",
+		"/C/Users/Vagif/VGF/web_development/overrule/index.html",
+		"/C/Users/Vagif/VGF/web_development/overrule/menuItem.js",
+		"/C/Users/Vagif/VGF/web_development/overrule/Interactive.js",
+		"/C/Users/Vagif/VGF/web_development/overrule/Person.js",
+		"/C/Users/Vagif/VGF/web_development/overrule/game/starting/events/greetingYou.js",
+		"/C/Users/Vagif/VGF/web_development/overrule/SimpleEvent.js",
+		"/C/Users/Vagif/VGF/web_development/overrule/ui.js",
+		"/C/Users/Vagif/Desktop/defaultItem.png",
+		"/C/Users/Vagif/VGF/web_development/overrule/commons.js",
+		"/C/Users/Vagif/VGF/web_development/overrule/importUI.js",
+		"/C/Users/Vagif/VGF/web_development/overrule/ş",
+		"/C/Users/Vagif/AppData/Roaming/Sublime Text 3/Packages/Personal/open cmd here.sublime-build",
+		"/C/Users/Vagif/AppData/Roaming/Sublime Text 3/Packages/Personal/cmd.sublime-build",
+		"/C/Users/Vagif/AppData/Roaming/Sublime Text 3/Packages/Personal/Python (cmd).sublime-build",
+		"/C/Users/Vagif/VGF/web_development/typescripttests/js/b/file_b.js.map",
+		"/C/Users/Vagif/VGF/web_development/typescripttests/js/app.js",
+		"/C/Users/Vagif/VGF/web_development/typescripttests/app.js",
+		"/C/Users/Vagif/VGF/web_development/typescripttests/ts/b/file_b.ts",
+		"/C/Users/Vagif/VGF/web_development/typescripttests/ts/a/file_a.ts",
+		"/C/Users/Vagif/VGF/web_development/typescripttests/ts/app.ts",
+		"/C/Users/Vagif/VGF/web_development/Kodra/blobs/maths/add_blob.js",
+		"/C/Users/Vagif/VGF/web_development/Kodra/plugins/number_plugin.js",
+		"/C/Users/Vagif/VGF/web_development/Kodra/plugin.js",
+		"/C/Users/Vagif/VGF/web_development/Kodra/app.js",
+		"/C/Users/Vagif/VGF/web_development/Kodra/plugins/text_plugin.js",
+		"/C/Users/Vagif/VGF/web_development/Kodra/texts.txt",
+		"/C/Users/Vagif/VGF/web_development/Kodra/index.html",
+		"/C/Users/Vagif/VGF/web_development/Kodra/README.md",
+		"/C/Users/Vagif/VGF/web_development/Kodra/style.css",
+		"/C/Users/Vagif/VGF/web_development/Kodra/someBlobs.js",
+		"/C/Users/Vagif/AppData/Roaming/Sublime Text 3/Packages/User/Markdown.sublime-settings",
+		"/C/Users/Vagif/AppData/Roaming/Sublime Text 3/Packages/Personal/live server.sublime-build",
+		"/C/Users/Vagif/AppData/Roaming/Sublime Text 3/Packages/Personal/live server (cmd).sublime-build",
+		"/C/Users/Vagif/Django/main/filmOylama/main/static/main/detail.css",
+		"/C/Users/Vagif/Django/main/filmOylama/main/static/main/style.css",
+		"/C/Users/Vagif/Django/main/filmOylama/main/static/main/detail.html",
+		"/C/Users/Vagif/Django/main/filmOylama/main/admin.py",
+		"/C/Users/Vagif/Django/main/filmOylama/filmOylama/urls.py",
+		"/C/Users/Vagif/Django/main/filmOylama/filmOylama/views.py",
+		"/C/Users/Vagif/Django/main/filmOylama/filmOylama/templates/filmOylama/index.html",
+		"/C/Users/Vagif/Django/main/filmOylama/main/views.py",
+		"/C/Users/Vagif/Django/main/filmOylama/main/templates/main/index.html",
+		"/C/Users/Vagif/Django/main/filmOylama/main/urls.py",
+		"/C/Users/Vagif/Django/main/filmOylama/filmOylama/templates/filmOylama",
+		"/C/Users/Vagif/Django/main/filmOylama/filmOylama/settings.py",
+		"/C/Users/Vagif/VGF/web_development/pyxana/Dposts/6)Siyahılar və Stringlər.md",
+		"/C/Users/Vagif/Django/main/ikinci/ikinci/settings.py",
+		"/C/Users/Vagif/Django/main/Deviews/mysite/manage.py",
+		"/C/Users/Vagif/Django/main/Deviews/mysite/polls/models.py",
+		"/C/Users/Vagif/AppData/Roaming/Sublime Text 3/Packages/Theme - Default/Default.sublime-theme",
+		"/C/Users/Vagif/AppData/Roaming/Sublime Text 3/Packages/User/VGFixAdaptive - Copy.sublime-theme",
+		"/C/Users/Vagif/AppData/Roaming/Sublime Text 3/Packages/User/Prettier formatsublime-build.sublime-build",
+		"/C/Users/Vagif/Django/main/Deviews/mysite/polls/admin.py",
+		"/C/Users/Vagif/Django/main/Deviews/mysite/mysite/settings.py",
+		"/C/Users/Vagif/AppData/Roaming/Sublime Text 3/Packages/Hipster/Hipster.sublime-theme",
+		"/C/Users/Vagif/Django/main/Deviews/mysite/polls/templates/polls/index.html",
+		"/C/Users/Vagif/Django/main/Deviews/mysite/mysite/urls.py",
+		"/C/Users/Vagif/Django/main/Deviews/mysite/polls/views.py",
+		"/C/Users/Vagif/Django/main/Deviews/mysite/polls/urls.py",
+		"/C/Users/Vagif/Desktop/dirty for Sublime/Guna-light.sublime-settings",
+		"/C/Users/Vagif/Desktop/dirty for Sublime/Guna customized/themes/Guna.sublime-theme",
+		"/C/Users/Vagif/AppData/Roaming/Sublime Text 3/Packages/Theme - Seti Monokai/Seti Monokai.sublime-theme",
+		"/C/Users/Vagif/Desktop/dirty for Sublime/Theme - Default VGF/common/bookmark@2x.png",
+		"/C/Users/Vagif/Desktop/dirty for Sublime/Theme - Default VGF/common/broken_image.png",
+		"/C/Users/Vagif/Desktop/dirty for Sublime/elifbaci.py",
+		"/C/Users/Vagif/Desktop/dirty for Sublime/Affin project/realelifba.py",
+		"/C/Users/Vagif/AppData/Roaming/Sublime Text 3/Packages/Hipster st4/Hipster st4.sublime-theme",
+		"/C/Users/Vagif/AppData/Roaming/Sublime Text 3/Packages/zzz A File Icon zzz/aliases/XML (SVG).sublime-syntax",
+		"/C/Users/Vagif/Desktop/dirty for Sublime/Theme - Default VGF/icons/file_type_default@3x.png",
+		"/C/Users/Vagif/AppData/Roaming/Sublime Text 3/Packages/Theme - Default/adaptive/Adaptive.sublime-theme",
+		"/C/Users/Vagif/Desktop/prismtest/prism.css",
+		"/C/Users/Vagif/Desktop/English.lnk",
+		"/C/Users/Vagif/Desktop/hipyedegi.json",
+		"/C/Users/Vagif/Desktop/nonusuals.lnk",
+		"/C/Users/Vagif/Desktop/code bender.lnk",
+		"/C/Users/Vagif/AppData/Roaming/Sublime Text 3/Packages/VGF-adaptive/VGF-adaptive - Copy.sublime-theme",
+		"/C/Users/Vagif/Desktop/QuEquSameAware.py",
+		"/C/Users/Vagif/Desktop/QuEqu.py",
+		"/C/Users/Vagif/VGF/web_development/4p7x7/onePieceLocalVgf.html",
+		"/C/Users/Vagif/AppData/Roaming/Sublime Text 3/Packages/Theme - Fits/Fits.sublime-theme",
+		"/C/Users/Vagif/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/Vagif/AppData/Roaming/Sublime Text 3/Packages/User/XML.sublime-settings",
+		"/C/Users/Vagif/Desktop/allioko.html",
+		"/C/Users/Vagif/Desktop/anodafreelncr.html",
+		"/C/Users/Vagif/Desktop/tester.py",
+		"/C/Users/Vagif/AppData/Roaming/Sublime Text 3/Packages/User/Histamine.sublime-theme",
+		"/C/Users/Vagif/Desktop/speak-lang.txt",
+		"/C/Users/Vagif/VGF/web_development/web_assebly/ilk.html",
+		"/C/Users/Vagif/VGF/web_development/responsivness_with_grid/style.css",
+		"/C/Users/Vagif/VGF/web_development/responsivness_with_grid/index.html",
+		"/C/Users/Vagif/Desktop/allio.html",
+		"/C/Users/Vagif/VGF/web_development/layaut_tries/style.css",
+		"/C/Users/Vagif/Desktop/testci.py",
+		"/C/Users/Vagif/VGF/web_development/layaut_tries/index.html",
+		"/C/Users/Vagif/AppData/Roaming/Sublime Text 3/Packages/User/VGFpythonshell.sublime-build",
+		"/C/Users/Vagif/AppData/Roaming/Sublime Text 3/Packages/User/indexi_edgede_acan.sublime-build",
+		"/C/Users/Vagif/AppData/Roaming/Sublime Text 3/Packages/User/Python Terminus.sublime-build",
+		"/C/Users/Vagif/Desktop/Webu/ucuncumuzdu/index.html"
+	],
+	"find":
+	{
+		"height": 22.0
+	},
+	"find_in_files":
+	{
+		"height": 273.0,
+		"where_history":
+		[
+			"<open folders>",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"sdy",
+			"log",
+			"oldend",
+			"delta",
+			"mainproc",
+			"mainprocs",
+			"delta",
+			"mainprocess",
+			"maainprocess",
+			"delta",
+			"mainprocess",
+			"processdy",
+			"process",
+			"time",
+			"end",
+			"time",
+			"mainproces",
+			"start",
+			"loop",
+			"start",
+			"mainprocess(",
+			"mainprocess",
+			"process",
+			"0",
+			"default",
+			"console.log('defa",
+			"defaullt",
+			"Green",
+			"green",
+			"eval",
+			"outputside",
+			"time",
+			"function \\w+\\(\\w*\\) {",
+			"jar",
+			"div",
+			"editor",
+			">",
+			"editor",
+			"div",
+			"code",
+			"div",
+			"\\",
+			"\\prismjs",
+			"(?:\"(?:\\\\(?:\\r\\n|[\\s\\S]",
+			"script",
+			"code",
+			"div",
+			"code",
+			".com/download.html#themes=prism-okaidia&languages=markup+css+clike+javascript */\n/**\n * okaidia theme for JavaScript, CSS and HTML\n * Loosely based on Monokai textmate theme by http://www.monokai.nl/\n * @author ocodia\n */\n\ncode[class*=\"language-\"],\npre[class*=\"language-\"] {\n\tcolor: #f8f8f2;",
+			"\\",
+			"div",
+			"class=\"editor\"",
+			"=editor",
+			"\\",
+			"export",
+			"textarea",
+			"4",
+			"editor",
+			"x",
+			"4",
+			"vel",
+			"-4",
+			"5",
+			"x",
+			"0",
+			"let d",
+			"this.pos.x+=",
+			"this.pos.x",
+			"4",
+			"9",
+			"0",
+			"90",
+			"pos",
+			"x",
+			"+=(this",
+			"])}",
+			"absvel",
+			"this.processDynamic()",
+			"process",
+			"static radius",
+			"2",
+			"newradius",
+			"static ",
+			"og",
+			"constructor",
+			"color",
+			"static",
+			"constructor",
+			"200",
+			"this.radius",
+			"color",
+			"set",
+			"A",
+			"back",
+			"colorAsFun",
+			"set",
+			"console.",
+			"any",
+			"static",
+			"constructor",
+			"static",
+			"constructor",
+			" this.radius",
+			"color",
+			"2rem",
+			"output",
+			"40px",
+			"2rem",
+			"0",
+			"00",
+			"editor",
+			"console.log",
+			"console",
+			"editor",
+			"onclick",
+			".process",
+			"processDynamic",
+			"mainProcess",
+			"outputside",
+			"visibleConsole",
+			"function",
+			"this",
+			"realprocess",
+			"process",
+			"Process",
+			"process",
+			"start",
+			"Time"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1769,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								545,
+								545
+							]
+						],
+						"settings":
+						{
+							"open_with_edit": true,
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1687,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								917,
+								917
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
+							"default_dir": "C:\\Users\\Vagif\\VGF\\web_development\\adsiz",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 294.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "test.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1194,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								275,
+								819
+							]
+						],
+						"settings":
+						{
+							"open_with_edit": true,
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "package.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 78,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1,
+								1
+							]
+						],
+						"settings":
+						{
+							"open_with_edit": true,
+							"syntax": "Packages/zzz A File Icon zzz/aliases/JSON (NPM).sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 14,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "style.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1912,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4,
+								4
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 12,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "nicer.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 84,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								82,
+								82
+							]
+						],
+						"settings":
+						{
+							"open_with_edit": true,
+							"syntax": "Packages/CSS/CSS.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "app.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 441,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								396,
+								396
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 407,
+						"regions":
+						{
+							"match":
+							{
+								"flags": 112,
+								"regions":
+								[
+									[
+										191,
+										208
+									],
+									[
+										322,
+										339
+									]
+								],
+								"scope": ""
+							}
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"default_dir": "C:\\Users\\Vagif\\VGF\\web_development\\adsiz",
+							"detect_indentation": false,
+							"line_numbers": false,
+							"output_tag": 1,
+							"result_base_dir": "",
+							"result_file_regex": "^([^ \t].*):$",
+							"result_line_regex": "^ +([0-9]+):",
+							"scroll_past_end": true,
+							"syntax": "Packages/Default/Find Results.hidden-tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "Dot.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3851,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2224,
+								2224
+							]
+						],
+						"settings":
+						{
+							"open_with_edit": true,
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 797.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "Vector.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4630,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4586,
+								4586
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2370.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "issues.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1338,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								561,
+								561
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/MultiMarkdown.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 15,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "colors.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 491,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								338,
+								338
+							]
+						],
+						"settings":
+						{
+							"open_with_edit": true,
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "editor.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 545,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								544,
+								544
+							]
+						],
+						"settings":
+						{
+							"open_with_edit": true,
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "core.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2741,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								871,
+								872
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 152.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 14,
+					"file": "builtIns.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 285,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								283,
+								283
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 15,
+					"file": "test2.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 576,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								141,
+								141
+							],
+							[
+								189,
+								189
+							]
+						],
+						"settings":
+						{
+							"open_with_edit": true,
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 13.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 13,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 22.0
+	},
+	"input":
+	{
+		"height": 209.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": false,
+	"output.Terminus":
+	{
+		"height": 204.0
+	},
+	"output.Terminus Build Results":
+	{
+		"height": 220.0
+	},
+	"output.exec":
+	{
+		"height": 127.0
+	},
+	"output.find_results":
+	{
+		"height": 475.0
+	},
+	"pinned_build_system": "",
+	"project": "adsiz.sublime-project",
+	"replace":
+	{
+		"height": 40.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"app",
+				"app.js"
+			],
+			[
+				"dot",
+				"Dot.js"
+			],
+			[
+				"core",
+				"core.js"
+			],
+			[
+				"do",
+				"Dot.js"
+			],
+			[
+				"colors",
+				"colors.js"
+			],
+			[
+				"editor",
+				"editor.js"
+			],
+			[
+				"vec",
+				"Vector.js"
+			],
+			[
+				"nicer",
+				"nicer.css"
+			],
+			[
+				"syt",
+				"style.css"
+			],
+			[
+				"style",
+				"style.css"
+			],
+			[
+				"tes",
+				"test.html"
+			],
+			[
+				"test",
+				"test.html"
+			],
+			[
+				"colo",
+				"colors.js"
+			],
+			[
+				"html",
+				"index.html"
+			],
+			[
+				"css",
+				"style.css"
+			],
+			[
+				"",
+				"howToSetProcess.js"
+			],
+			[
+				"dev",
+				"dev_example.html"
+			],
+			[
+				"velegan",
+				"Velegant.js"
+			],
+			[
+				"vome",
+				"Vome.js"
+			],
+			[
+				"html2canvas",
+				"node_modules\\html2canvas\\dist\\html2canvas.js"
+			],
+			[
+				"html2pdf",
+				"node_modules\\html2pdf.js\\dist\\html2pdf.js"
+			],
+			[
+				"inter",
+				"Interactive.js"
+			],
+			[
+				"popup",
+				"Popup.js"
+			],
+			[
+				"mars",
+				"game\\starting\\events\\greetingOfMarshal.js"
+			],
+			[
+				"me",
+				"menuItem.js"
+			],
+			[
+				"pers",
+				"Person.js"
+			],
+			[
+				"intera",
+				"Interactive.js"
+			],
+			[
+				"tour",
+				"Tour.js"
+			],
+			[
+				"greee",
+				"game\\starting\\events\\greetingYou.js"
+			],
+			[
+				"ve",
+				"Vevent.js"
+			],
+			[
+				"men",
+				"menuItem.js"
+			],
+			[
+				"menu",
+				"menuItem.js"
+			],
+			[
+				"eve",
+				"Vevent.js"
+			],
+			[
+				"marsh",
+				"game\\starting\\persons\\Marshal.js"
+			],
+			[
+				"ggree",
+				"game\\starting\\events\\greetingYou.js"
+			],
+			[
+				"inde",
+				"index.html"
+			],
+			[
+				"person",
+				"Person.js"
+			],
+			[
+				"mn",
+				"menuItem.js"
+			],
+			[
+				"ui",
+				"ui.js"
+			],
+			[
+				"po",
+				"Popup.js"
+			],
+			[
+				"v",
+				"Vevent.js"
+			],
+			[
+				"ind",
+				"index.html"
+			],
+			[
+				"numberbl",
+				"blobs\\number_blob.js"
+			],
+			[
+				"veiws",
+				"main\\views.py"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"C:\\Users\\Vagif\\Desktop\\Mellio\\Melio.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 227.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

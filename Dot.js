@@ -1,4 +1,5 @@
 import {V, Vector} from './Vector.js'
+import {time, delta} from './core.js'
 
 var output = document.querySelector('#output')
 var allDots = []
@@ -82,7 +83,14 @@ class Dot{
 
   // just add its velocity to position. the most basic physics simulation
   processDynamic() {
-    this.pos = this.pos["+"](this.vel);
+    // this 5 is for making it fast enough (also can be used for slow) to see
+    // affects in sall numbers
+    // !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+    this.pos = this.pos.re()["+"](this.vel.re().mul(delta).div(1000)
+      // .mul(5)
+      )
+    // console.log(delta)
+    // console.log(this)
     // this.lookAt(this.vel)
     // this.posfix();
   }
@@ -130,6 +138,10 @@ class Dot{
   }
 
   mainProcess(){
+      // let end = new Date().getTime();
+      // let nowTime = end - start;
+
+
     this.processDynamic()
     this.process()
     this.posfix();

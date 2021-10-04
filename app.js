@@ -22,9 +22,9 @@ import {startProcess, mainProcess, stopProcess, start, restart, stop, reset} fro
 
 // `
 
-new Dot(45,60).vel=V(6,8)
+// new Dot(45,60).vel=V(6,8)
 
-startProcess()
+// startProcess()
 
 // restart()
 
