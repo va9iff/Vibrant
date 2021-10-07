@@ -1,34 +1,41 @@
-// class Lime extends Dot{
-// 	static color  = '#2f2'
-// 	constructor(){
-// 		super()
-// 		this.init()
-// 	}
-// }
+import {Ball} from './Ball.js'
 
-// class Mint extends Dot{
-// 	static color  = '#22ffff'
-// 	constructor(){
-// 		super()
-// 		this.init()
-// 	}
-// }
 
-// class Pink extends Dot{
-// 		static color = '#f2f'
-// }
-
-class Lime extends Dot{
-	static color  = '#2f2'
-	static radius = 40
+class Red extends Ball {
+	static color = "Red"
 }
 
-class Mint extends Dot{
-	 static color  = '#22ffff'
-	 static radius = 20
+class Green extends Ball {
+	static color = "Green"
 }
 
-class Pink extends Dot{
-	 static color = '#f2f'
+class Blue extends Ball {
+	static color = "Blue"
 }
 
+
+class Magenta extends Ball {
+	static color = "Magenta"
+}
+
+
+class Cyan extends Ball {
+	static color = "Cyan"
+}
+
+
+class Yellow extends Ball {
+	static color = "Yellow"
+}
+
+
+class White extends Ball {
+	static color = "White"
+}
+
+class Black extends Ball {
+	static color = "Black"
+}
+
+
+export {Red, Green, Blue, Magenta, Cyan, Yellow, White, Black}

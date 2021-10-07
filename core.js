@@ -1,5 +1,6 @@
 // import {time} from './builtIns.js'
-import {allDots,Dot} from './Dot.js'
+import {allDots, Ball} from './Ball.js'
+import {Red, Green, Blue,Magenta,Cyan,Yellow,White,Black} from "./colors.js"
 import {Vector, V} from "./Vector.js"
 import {jar} from './editor.js'
 
@@ -13,39 +14,26 @@ let secondsPassed = 1;
 let oldTimeStamp = 1;
 let fps = 1;
 
-
-// so basic. no delta
-// function loop(){
-// 	mainProcess(100)
-
-// 	window.requestAnimationFrame(loop)
-// }
+var run = false
 
 function gameLoop(timeStamp) {
 
-    // Calculate the number of seconds passed since the last frame
-    secondsPassed = (timeStamp - oldTimeStamp) / 1000;
-    oldTimeStamp = timeStamp;
+		// Calculate the number of seconds passed since the last frame
+		secondsPassed = (timeStamp - oldTimeStamp) / 1000;
+		oldTimeStamp = timeStamp;
 
-    // Calculate fps
-    fps = Math.round(1 / secondsPassed);
+		time+=delta
+		console.log(time)
 
-    // Draw number to the screen
-    // context.fillStyle = 'white';
-    // context.fillRect(0, 0, 200, 100);
-    // context.font = '25px Arial';
-    // context.fillStyle = 'black';
-    // context.fillText("FPS: " + fps, 10, 30);
-    // console.log(fps)
+		// Calculate fps
+		fps = Math.round(1 / secondsPassed);
 
-    // Perform the drawing operation
-    // draw();
-
-    mainProcess(secondsPassed)
+		mainProcess(secondsPassed)
 
 
-    // The loop function has reached it's end. Keep requesting new frames
-    window.requestAnimationFrame(gameLoop);
+		// The loop function has reached it's end. Keep requesting new frames
+
+		if(run) window.requestAnimationFrame(gameLoop)
 }
 var loop = gameLoop
 
@@ -82,7 +70,7 @@ function startProcess() {
 	// mainProcess(start);
 
 	// mainProcessId = setInterval(mainProcess, tickDelay, start);
-
+	startTime = new Date().getTime()
 	loop()
 }
 
@@ -99,10 +87,25 @@ function mainProcess() {
 }
 
 function stopProcess() {
-	clearInterval(mainProcessId);
+	// clearInterval(mainProcessId);
+	run = false
+	// startTime = new Date().getTime()
+
+
 }
 
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+ * after pausing, it looks like it's continueing. but it is not.
+ * the time (and||or delta) is continue to count. we need to
+ * reset the start time to the time when you press continue
+ *!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
 function start() {
+	run = true
+	delta = 0
+	startTime = new Date().getTime()
+	oldend = startTime
+
 	startProcess();
 	startButton.onclick = reset;
 	startButton.innerHTML = "reset";
@@ -122,6 +125,8 @@ function stop() {
 
 function reset() {
 	stop();
+	time = 0
+	// delta = 0
 	allDots.forEach((dot) => dot.remove());
 	startButton.onclick = restart;
 	startButton.innerHTML = "(re)start";

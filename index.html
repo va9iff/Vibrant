@@ -24,12 +24,11 @@
 					<!-- > -->
 <!--  -->
 					<pre class="editor">
-for(let a=1; a<10; a++){
-	let d = new Dot()
-	d.vel.x=a*0.7
-	d.vel.y=a*0.3
-	
-	console.log(a)
+for(let i=1; i<30; i++){
+	let a = new Red()
+	a.vel = new Vector(1,1)
+	a.vel.setLen(i)
+	a.vel.setAngle(i/10*Math.PI)
 }</pre>
 				</div>
 			</div>
@@ -37,6 +36,7 @@ for(let a=1; a<10; a++){
 				<div id="menurow">
 					<button id="start" class="playButtons">start</button>
 					<button id="pause" class="playButtons">pause</button>
+					<button id="snippets" class="playButtons">Snippets</button>
 				</div>
 
 				<div id="outputWrapper">
@@ -59,7 +59,7 @@ for(let a=1; a<10; a++){
 		<!-- editor -->
 
 		<!-- <script src="Vector.js"></script> -->
-		<!-- <script src="Dot.js"></script> -->
+		<!-- <script src="Ball.js"></script> -->
 		<!-- <script src="colors.js"></script> -->
 		<!-- <script src="builtins.js"></script> -->
 		<!-- <script src="core.js"></script> -->

@@ -33,3 +33,11 @@ performance hit due to HTML Elements
 		in process, just consider the origin.
 		like add offsetWidth/2 to x.
 
+pause doesn't pause
+	well, it does.
+		after pausing, it looks like it's continueing. but it is not.
+		the time (and||or delta) is continue to count. we need to
+		reset the start time to the time when you press continue
+
+	owww yeaaahhh, thats explains why i have to start and reset.
+	it uses wrong start time when the page is loaded.

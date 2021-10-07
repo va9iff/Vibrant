@@ -1,11 +1,11 @@
-import {Dot} from './Dot.js'
-import {V, Vector} from './Vector.js'
+// import {Ball} from './Ball.js'
+// import {V, Vector} from './Vector.js'
 
 import {startProcess, mainProcess, stopProcess, start, restart, stop, reset} from './core.js'
 
 
 // editor.value = `
-// let d = new Dot()
+// let d = new Ball()
 // d.vel = V(4,4)
 
 // new Lime()
@@ -22,10 +22,13 @@ import {startProcess, mainProcess, stopProcess, start, restart, stop, reset} fro
 
 // `
 
-// new Dot(45,60).vel=V(6,8)
+// new Ball(45,60).vel=V(6,8)
 
 // startProcess()
 
 // restart()
 
 // visualize()
+
+// restart()
+// reset()
