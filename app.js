@@ -4,8 +4,10 @@
 import {startProcess, mainProcess, stopProcess, start, restart, stop, reset} from './core.js'
 
 import {setupSnippets} from "./snippets.js"
-
+import {setupSwapper} from "./otherUI.js"
 setupSnippets()
+
+setupSwapper()
 
 
 // editor.value = `

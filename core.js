@@ -52,6 +52,7 @@ eval(jar.toString())
 var mainProcessId;
 
 var editor = document.querySelector("#editor");
+var editorWrapper = document.querySelector("#editorWrapper");
 
 var tickDelay  = 1000
 
@@ -151,4 +152,5 @@ pauseButton.onclick = stop;
 
 export {startProcess, mainProcess, stopProcess, start, restart, stop, reset,
 
-time, delta}
+time, delta, 
+editorWrapper}

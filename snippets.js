@@ -14,7 +14,27 @@ for(let i=1; i<30; i++){
 	a.vel.setAngle(i/10*Math.PI)
 } 
 `
+	},{
+		name: "primary colors",
+		code: `
+new Red().pos.x     = -240
+new Green().pos.x   = -160
+new Blue().pos.x    = -80
+new Cyan().pos.x    = 0
+new Magenta().pos.x = 80
+new Yellow().pos.x  = 160
+`
+	},{
+		name: "up n down smoothly",
+		code: `
+let a = new Yellow()
+a.process = function(){
+	this.pos.y = Math.sin(time/300)*200
+}
+`
 	}
+
+
 ]
 
 function openSnippetsPanel(){

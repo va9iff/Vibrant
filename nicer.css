@@ -31,6 +31,7 @@
 	overflow: scroll;
 	resize: horizontal;
 	transition-timing-function: cubic-bezier(0.0, 1.0, 1.0, 1.0);
+  min-width: 10vw;
   max-width: 90vw;
 }
 
@@ -64,7 +65,7 @@
 
 
 #outputWrapper{
-	background-color: #ddd;
+	background-color: #eaeaea;
 	border-radius: 2rem;
 	margin: 1rem;
 }
