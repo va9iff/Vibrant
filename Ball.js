@@ -11,6 +11,9 @@ class Ball{
 	static color = '#666'
 
 	static radius = 20
+
+	static named = false
+	
 	_radius = this.constructor.radius
 
 	processFuns = []
@@ -67,7 +70,7 @@ class Ball{
 		vis.style.position= "absolute";
 		vis.className = "Ball";
 		// vis.innerHTML = 'AFSD'
-		vis.innerHTML = this.constructor.name
+		if (this.constructor.named) vis.innerHTML = this.constructor.name
 		// vis.style.left = '0px'
 		// vis.style.backgroundColor = this.color
 		// vis.style.backgroundColor = this.color

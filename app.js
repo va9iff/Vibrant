@@ -3,6 +3,10 @@
 
 import {startProcess, mainProcess, stopProcess, start, restart, stop, reset} from './core.js'
 
+import {setupSnippets} from "./snippets.js"
+
+setupSnippets()
+
 
 // editor.value = `
 // let d = new Ball()

@@ -1,5 +1,5 @@
   import {CodeJar} from 'https://medv.io/codejar/codejar.js'
-  import {withLineNumbers} from "https://cdn.jsdelivr.net/npm/@medv/codejar@1.0.6/linenumbers.js"
+  // import {withLineNumbers} from "https://cdn.jsdelivr.net/npm/@medv/codejar@1.0.6/linenumbers.js"
 
   // let jar = CodeJar(document.querySelector('.editor'), Prism.highlightElement)
 
@@ -12,6 +12,6 @@ const highlight = editor => {
   hljs.highlightBlock(editor)
 }
 
-const jar = new CodeJar(editor, withLineNumbers(highlight))
+const jar = new CodeJar(editor, highlight)
 
 export {jar}

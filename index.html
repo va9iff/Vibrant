@@ -24,19 +24,14 @@
 					<!-- > -->
 <!--  -->
 					<pre class="editor">
-for(let i=1; i<30; i++){
-	let a = new Red()
-	a.vel = new Vector(1,1)
-	a.vel.setLen(i)
-	a.vel.setAngle(i/10*Math.PI)
-}</pre>
+					</pre>
 				</div>
 			</div>
 			<div id="outputSide">
 				<div id="menurow">
 					<button id="start" class="playButtons">start</button>
 					<button id="pause" class="playButtons">pause</button>
-					<button id="snippets" class="playButtons">Snippets</button>
+					<button id="snippets" class="playButtons" style="width: 7rem">Snippets</button>
 				</div>
 
 				<div id="outputWrapper">
@@ -46,6 +41,11 @@ for(let i=1; i<30; i++){
 				</div>
 
 				<div id="visibleConsole"></div>
+			</div>
+			<div id="snippetsPanel">
+
+				<!-- the snippets will be inserted from snippets.js snippetCodes variable -->
+
 			</div>
 		</div>
 

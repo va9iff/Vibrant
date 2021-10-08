@@ -5,26 +5,38 @@
 	background-color: #0005;
 	/*color: white*/
 	font-family: 'Nunito', sans-serif;
+	/*transition-delay: 0;*/
 }
 
 #main{
 	background-color: white;
+	overflow-x: hidden;
 }
 
 #editorSide{
 	/*background-color: #4fd;*/
-	background-color: #0000;
+	/*background-color: #0000;*/
+	background-color: #272822;
 }
 
 #editorWrapper{
 	/*background-color: #22221544;*/
 	background-color: #0000;
-	padding-top: 10vh;
 	/*margin-right: 1rem;*/
+
+	/*padding-top: 10vh;*/
+	padding-top: 0;
+
+	/*overflow: scroll;*/
+	overflow: scroll;
+	resize: horizontal;
+	transition-timing-function: cubic-bezier(0.0, 1.0, 1.0, 1.0);
+  max-width: 90vw;
 }
 
 #outputSide{
 	background-color: #0000;
+	flex-grow: 100;
 }
 
 /*#outputSide{
@@ -44,10 +56,10 @@
     padding: 10px;
     tab-size: 4;
     resize: none !important; /*idk but !important is needed*/
-    width: 50vw;
-
-    height: 90vh;
-    /*height: 100vh;*/
+    /*width: 50vw;*/
+    width: 100%;
+    /*height: 90vh;*/
+    height: 100%;
 }
 
 
@@ -73,13 +85,15 @@
 	height: 4rem;
 	border-radius: 1.2rem;
 	background-color: #555;
+	/*margin: 0.2rem;*/
 	margin: 0.2rem;
 	color: white;
-
+  /*cursor: pointer;*/
+	transition: 120ms;
 }
 .playButtons:hover{
 	background-color: hsl(180, 14%, 50%);
-	transition: 120ms;
+	/*transition: 120ms;*/
 	border: 0.15rem solid hsl(150, 100%,50%);
 }
 
@@ -92,15 +106,18 @@
 /* Track */
 ::-webkit-scrollbar-track {
   /*background: #f1f1f1;*/
-  background: #0000;
+  /*background: #0000;*/
+  /*background: #fff;*/
+  /*background: #272822;*/ /*monokai*/
+  /*border-radius: 20px;*/
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
   /*background: #888;*/
-  background: hsl(150, 	20%, 	40%);
+  background: hsl(180, 14%, 50%);
   border-radius: 0.3rem;
-  transition: 4000ms;
+  /*transition: 4000ms;*/
 
 }
 
@@ -108,9 +125,38 @@
 ::-webkit-scrollbar-thumb:hover {
   /*background: #555;*/
   /*background: linear-gradient(20deg, magenta, cyan);*/
-  background: hsl(180, 14%, 50%);
+  background: hsl(180, 	70%, 	70%);
 }
 
 #outputWrapper{
 	overflow: hidden !important;
+}
+
+#snippetsPanel{
+	border-radius: 3rem;
+	overflow: scroll;
+	padding: 1.5rem;
+	display: none;	
+	background-color: #222;
+	color: white;
+
+}
+
+.snippet{
+	padding: 1.5rem;
+	font-size: 2rem;
+  border-radius: 0.7rem;
+  /*background-color: red;*/
+  transition: 100ms;
+	margin: 0.2rem;
+}
+
+.snippet:hover{
+	/*padding: 1.5rem;*/
+	/*font-size: 2rem;*/
+  /*border-radius: 0.7rem;*/
+  /*background-color: red;*/
+  background: radial-gradient(#444, #333) ;
+  transition: 100ms;
+  transform: scale(0.98);
 }

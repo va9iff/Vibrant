@@ -3,6 +3,7 @@
 	padding: 1rem;
 	margin: 1rem;
 	box-sizing: border-box;
+	transition: 400ms;
 
 	/*background-color: #333;*/
 	/*color: #fff;*/
@@ -86,6 +87,7 @@ body {
 	border: none;
 	/*border: 6px solid #333;*/
 	transform: translate(-50%, -50%) scaleY(-1);
+	transition: none;
 	margin: 0;
 	/*transition: linear 100ms;*/
 	padding: 0;
@@ -121,6 +123,19 @@ body {
 
 
 #start{
-	z-index: 99999;
+	z-index: 999;
 	position: relative;
 }
+
+#snippetsPanel{
+	position: absolute;
+	display: flex;
+	flex-direction: column;
+	left: 20vw;
+	top: 2vh;
+	width: 60vw;
+	height: 80vh;
+	z-index: 1000;
+	/*background-color: cyan;*/
+}
+
