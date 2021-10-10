@@ -42,8 +42,8 @@ class Ball{
 
 		allDots.push(this)
 
-		// lets delay it for a while
-		// if (this.process()==null) this.process=this.constructor.process
+		// lets delay it for a while... well, we've started
+		if (!this.process) this.process=this.constructor.process
 	}
 
 	set color(newcolor){
@@ -112,10 +112,10 @@ class Ball{
 		this.vis.style.top = this.pos.y + "px";
 	}
 
-	// DELAYED
-	// static process(){
+	// DELAYED... well, we started to implement
+	static process(){
 		
-	// }
+	}
 	// do whatever you want here without calling super.process()
 	// static process() {
 	// it is static. we will make instance's 
@@ -134,10 +134,10 @@ class Ball{
 	//   this.processDynamic();
 	// }
 
-	process(){
+	// process(){
 
-		console.log(this)
-	}
+		// console.log(this)
+	// }
 
 	keepInBox(){
 		let absvel=[Math.abs(this.vel.x),Math.abs(this.vel.y)]
@@ -161,6 +161,19 @@ class Ball{
 		this.processDynamic()
 		this.process()
 		this.posfix();
+	}
+
+	static populate(n){
+		let borders = [output.offsetWidth, output.offsetHeight]
+
+		// console.log(n)
+		// console.log(this.name)this.pos.vectorTo(r.pos)
+
+		for (var i = 0; i < n; i++) {
+			let a = new this()
+			a.pos=V(borders[0]*(Math.random()-0.5)*2, borders[1]*(Math.random()-0.5)*2)
+			// console.log(a)
+		}
 	}
 }
 

@@ -32,6 +32,17 @@ a.process = function(){
 	this.pos.y = Math.sin(time/300)*200
 }
 `
+	},{
+		name: "popul",
+		code:`
+let r = new Red()
+r.vel = V(60,80)
+Blue.process = function(){
+	this.vel = this.pos.vectorTo(r.pos).setLen(50)
+	console.log(this.pos.vectorTo(r.pos))
+}
+Blue.populate(2)
+`
 	}
 
 

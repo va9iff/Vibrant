@@ -23,7 +23,7 @@ function gameLoop(timeStamp) {
 		oldTimeStamp = timeStamp;
 
 		time+=delta
-		console.log(time)
+		// console.log(time)
 
 		// Calculate fps
 		fps = Math.round(1 / secondsPassed);
