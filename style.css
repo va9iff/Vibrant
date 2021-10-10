@@ -87,36 +87,37 @@ body {
 }
 
 .resetongoing{
-	animation-name: resetongoinganim;
-	animation-duration: 300ms;
-	animation-iteration-count: 500;
-	animation-fill-mode: backwards;
-	animation: resetongoinganim 500ms linear 0 50 alternate backwards;
+	/*animation-name: resetongoinganim;*/
+	/*animation-duration: 300ms;*/
+	/*animation-iteration-count: 500;*/
+	/*animation-fill-mode: backwards;*/
+	/*animation: resetongoinganim 500ms linear 0 50 alternate backwards;*/
+
+	transform: scale(0.93);
+	border: none !important;
 
 
 }
 
-@keyframes resetongoinganim{
-	0%{
-		background: linear-gradient(20deg, magenta, cyan);
-		transform: rotate(-2deg);
-	}
-	50%{
-		transform: rotate(2deg);
-		/*background-color: magenta*/
-		background: linear-gradient(20deg, magenta, cyan);
-	}
-	100%{
-		/*background-color: cyan*/
-		background: linear-gradient(20deg, magenta, cyan);
-		transform: rotate(-2deg);
-	}
-}
+/*@keyframes resetongoinganim{*/
+	/*0%{*/
+		/*background: linear-gradient(20deg, magenta, cyan);*/
+		/*transform: rotate(-2deg);*/
+	/*}*/
+	/*50%{*/
+		/*transform: rotate(2deg);*/
+		/*background: linear-gradient(20deg, magenta, cyan);*/
+	/*}*/
+	/*100%{*/
+		/*background: linear-gradient(20deg, magenta, cyan);*/
+		/*transform: rotate(-2deg);*/
+	/*}*/
+/*}*/
 
 
 #start{
 	z-index: 999;
-	position: relative;
+	/*position: relative;*/
 }
 
 #snippetsPanel{

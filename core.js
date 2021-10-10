@@ -9,6 +9,10 @@ var delta = 0
 var oldend = 0
 var startTime = new Date().getTime()
 
+
+var borderWrapper = document.querySelector("#borderWrapper")
+
+
 // loop things
 let secondsPassed = 1;
 let oldTimeStamp = 1;
@@ -109,6 +113,7 @@ function start() {
 
 	startProcess();
 	startButton.onclick = reset;
+	// borderWrapper.style.transform = "scale(1.1)"
 	startButton.innerHTML = "reset";
 }
 function restart() {
@@ -132,6 +137,7 @@ function reset() {
 	startButton.onclick = restart;
 	startButton.innerHTML = "(re)start";
 	startButton.classList.remove("resetongoing")
+	// borderWrapper.style.transform = "scale(1)"
 
 	// maybe later
 	// consoleOutput = "";
