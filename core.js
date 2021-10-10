@@ -17,22 +17,18 @@ if (localStorage.DATA) {
 	console.log('get saved data', window.localStorage.DATA)
 }else{
 	var DATA = {
-		init:true,
-		code: `//write the code here
+		CODE: `//write the code here
 `,
 		EDITORWIDTH: 0
 	}
 	localStorage.DATA = JSON.stringify(DATA)
 	console.log('set new data', window.localStorage.DATA)
 }
-
-// DATA.willbesaved = "it is saved"
-
 DATA.save = function(){
 	window.localStorage.DATA = JSON.stringify(DATA)//this = DATA
 }
 
-// DATA HAVE BEEN GOTTEN
+// DATA IS READY
 
 jar.updateCode(DATA.CODE)
 editorWrapper.style.transition = "none"
@@ -159,10 +155,6 @@ function stop() {
 }
 
 function reset() {
-
-	DATA.novass = "prr"
-
-	// console.log(DATA)
 
 	stop();
 	time = 0
