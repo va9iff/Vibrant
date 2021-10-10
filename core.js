@@ -4,10 +4,41 @@ import {Red, Green, Blue,Magenta,Cyan,Yellow,White,Black} from "./colors.js"
 import {Vector, V} from "./Vector.js"
 import {jar} from './editor.js'
 
+var editor = document.querySelector("#editor");
+var editorWrapper = document.querySelector("#editorWrapper");
+
 var time = 0
 var delta = 0
 var oldend = 0
 var startTime = new Date().getTime()
+
+if (localStorage.DATA) {
+	var DATA = JSON.parse(window.localStorage.DATA);
+	console.log('get saved data', window.localStorage.DATA)
+}else{
+	var DATA = {
+		init:true,
+		code: `//write the code here
+`,
+		EDITORWIDTH: 0
+	}
+	localStorage.DATA = JSON.stringify(DATA)
+	console.log('set new data', window.localStorage.DATA)
+}
+
+// DATA.willbesaved = "it is saved"
+
+DATA.save = function(){
+	window.localStorage.DATA = JSON.stringify(DATA)//this = DATA
+}
+
+// DATA HAVE BEEN GOTTEN
+
+jar.updateCode(DATA.CODE)
+editorWrapper.style.transition = "none"
+// editor.style.transition = 0
+editorWrapper.style.width = DATA.EDITORWIDTH + 'px'
+// setTimeout(editorWrapper.style.transitionDuration = 400 + 'ms')
 
 
 var borderWrapper = document.querySelector("#borderWrapper")
@@ -55,8 +86,6 @@ eval(jar.toString())
 
 var mainProcessId;
 
-var editor = document.querySelector("#editor");
-var editorWrapper = document.querySelector("#editorWrapper");
 
 var tickDelay  = 1000
 
@@ -130,6 +159,11 @@ function stop() {
 }
 
 function reset() {
+
+	DATA.novass = "prr"
+
+	// console.log(DATA)
+
 	stop();
 	time = 0
 	// delta = 0
@@ -142,6 +176,17 @@ function reset() {
 	// maybe later
 	// consoleOutput = "";
 	// visibleConsole.innerHTML = "";
+
+	// is a variant
+	// location.replace(location.href.split('#')[0]);
+
+
+	DATA.CODE = jar.toString()
+	DATA.EDITORWIDTH = editorWrapper.clientWidth
+	DATA.save()
+	window.location.reload(false); 
+
+
 }
 
 var startButton = document.querySelector("#start");
