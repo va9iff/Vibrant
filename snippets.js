@@ -15,7 +15,7 @@ for(let i=1; i<30; i++){
 } 
 `
 	},{
-		name: "primary colors",
+		name: "Primary Colors",
 		code: `
 new Red().pos.x     = -240
 new Green().pos.x   = -160
@@ -25,7 +25,7 @@ new Magenta().pos.x = 80
 new Yellow().pos.x  = 160
 `
 	},{
-		name: "up n down smoothly",
+		name: "Up n Down Smoothly",
 		code: `
 let a = new Yellow()
 a.process = function(){
@@ -33,7 +33,7 @@ a.process = function(){
 }
 `
 	},{
-		name: "popul",
+		name: "All For One",
 		code:`
 let r = new Red()
 r.vel = V(60,80)
@@ -41,7 +41,15 @@ Blue.process = function(){
 	this.vel = this.pos.vectorTo(r.pos).setLen(50)
 	console.log(this.pos.vectorTo(r.pos))
 }
-Blue.populate(2)
+Blue.populate(20)
+`
+	},{
+		name: "Beating Heart",
+		code: `
+Red.process = function(){
+	this.vel.add(this.pos.vectorTo(V(0,0)).mul(0.2))
+}
+Red.populate(20)
 `
 	}
 

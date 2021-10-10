@@ -14,26 +14,47 @@
 }
 
 #editorSide{
-	/*background-color: #4fd;*/
-	/*background-color: #0000;*/
-	background-color: #272822;
+	/*background-color: Red;*/
+  background: #272822; /*monokai*/
+	position: relative;
 }
 
+/*#editorWrapper, #editorSide{*/
+	/*width: 500px ;*/
+/*}*/
+
 #editorWrapper{
-	/*background-color: #22221544;*/
+	/*background-color: #00f;*/
 	background-color: #0000;
-	/*margin-right: 1rem;*/
 
 	/*padding-top: 10vh;*/
 	padding-top: 0;
 
 	/*overflow: scroll;*/
-	overflow: scroll;
+	overflow-y: scroll;
 	resize: horizontal;
 	transition-timing-function: cubic-bezier(0.0, 1.0, 1.0, 1.0);
   min-width: 10vw;
   max-width: 90vw;
+	width: 0px;
 }
+
+#resizeBar{
+	background-color: hsl(70, 8%, 25%);
+	width: 1.1rem;
+	right: 0;
+	height: calc(100% - 1.1rem);
+	/*height: 80%;*/
+	cursor: e-resize;
+	position: absolute;
+}
+
+/*#editorWrapper{
+  min-width: 10vw;
+  max-width: 90vw;
+
+}*/
+
 
 #outputSide{
 	background-color: #0000;
@@ -48,7 +69,8 @@
     /*border-radius: 6px;*/
     /*box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);*/
     /*margin: 1rem;*/
-    font-family: 'Source Code Pro', monospace;
+    /*font-family: 'Source Code Pro', monospace;*/
+    font-family: monospace;
     font-size: 14px;
     font-weight: 400;
     height: 340px;
@@ -134,8 +156,8 @@
 }
 
 #snippetsPanel{
-	border-radius: 3rem;
-	overflow: scroll;
+	border-radius: 1.5rem;
+	overflow-y: scroll;
 	padding: 1.5rem;
 	display: none;	
 	background-color: #222;
@@ -144,7 +166,7 @@
 }
 
 .snippet{
-	padding: 1.5rem;
+	padding: 1.2rem;
 	font-size: 2rem;
   border-radius: 0.7rem;
   /*background-color: red;*/
