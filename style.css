@@ -124,9 +124,10 @@ body {
 	position: absolute;
 	display: flex;
 	flex-direction: column;
-	left: 20vw;
+	left: 8%;
 	top: 2vh;
-	width: 60vw;
+	/*width: 60vw;*/
+	width: 84%;
 	height: 80vh;
 	z-index: 1000;
 	/*background-color: cyan;*/

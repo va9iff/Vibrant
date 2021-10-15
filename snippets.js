@@ -25,9 +25,10 @@ new Magenta().pos.x = 80
 new Yellow().pos.x  = 160
 `
 	},{
-		name: "Up n Down Smoothly",
+		name: "Sinusoid",
 		code: `
 let a = new Yellow()
+a.vel.x=100
 a.process = function(){
 	this.pos.y = Math.sin(time/300)*200
 }
@@ -39,7 +40,6 @@ let r = new Red()
 r.vel = V(60,80)
 Blue.process = function(){
 	this.vel = this.pos.vectorTo(r.pos).setLen(50)
-	console.log(this.pos.vectorTo(r.pos))
 }
 Blue.populate(20)
 `
@@ -50,6 +50,16 @@ Red.process = function(){
 	this.vel.add(this.pos.vectorTo(V(0,0)).mul(0.2))
 }
 Red.populate(20)
+`
+	},{
+		name: "Black Hole",
+		code:`
+class Matter extends Blue{
+	process(){
+		this.vel.add(this.pos["*"](-1)).rotate(1).max(50)
+	}
+}
+Matter.populate(25)
 `
 	}
 

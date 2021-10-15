@@ -31,7 +31,8 @@ DATA.save = function(){
 // DATA IS READY
 
 jar.updateCode(DATA.CODE)
-editorWrapper.style.transition = "none"
+// on the refreshing the page, this may help the editor to expand quicker
+// editorWrapper.style.transition = "none"
 // editor.style.transition = 0
 editorWrapper.style.width = DATA.EDITORWIDTH + 'px'
 // setTimeout(editorWrapper.style.transitionDuration = 400 + 'ms')
@@ -136,6 +137,9 @@ function start() {
 	startTime = new Date().getTime()
 	oldend = startTime
 
+	startButton.classList.add("resetongoing");
+	
+	
 	startProcess();
 	startButton.onclick = reset;
 	// borderWrapper.style.transform = "scale(1.1)"
@@ -145,7 +149,7 @@ function restart() {
 	// eval(editor.value);
 	runUserScript()
 	start();
-	startButton.classList.add("resetongoing");
+	// startButton.classList.add("resetongoing");
 }
 
 function stop() {
@@ -161,7 +165,10 @@ function reset() {
 	// delta = 0
 	allDots.forEach((dot) => dot.remove());
 	startButton.onclick = restart;
-	startButton.innerHTML = "(re)start";
+
+	// page's gonna refresh anyway
+	// startButton.innerHTML = "(re)start";
+
 	startButton.classList.remove("resetongoing")
 	// borderWrapper.style.transform = "scale(1)"
 
