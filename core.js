@@ -194,7 +194,7 @@ function reset() {
 	// startButton.onclick = restart; //don't let double click do something
 	startButton.onclick = ()=>null;
 	editorWrapper.style.width="10vw"
-	jar.updateCode("")
+	// jar.updateCode("")
 
 
 
