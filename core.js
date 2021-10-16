@@ -142,6 +142,7 @@ function start() {
 	
 	startProcess();
 	startButton.onclick = reset;
+
 	// borderWrapper.style.transform = "scale(1.1)"
 	startButton.innerHTML = "reset";
 }
@@ -164,7 +165,9 @@ function reset() {
 	time = 0
 	// delta = 0
 	allDots.forEach((dot) => dot.remove());
-	startButton.onclick = restart;
+
+
+
 
 	// page's gonna refresh anyway
 	// startButton.innerHTML = "(re)start";
@@ -184,6 +187,16 @@ function reset() {
 	DATA.EDITORWIDTH = editorWrapper.clientWidth
 	DATA.save()
 	window.location.reload(false); 
+
+	// better for page resetting
+	// 
+	
+	// startButton.onclick = restart; //don't let double click do something
+	startButton.onclick = ()=>null;
+	editorWrapper.style.width="10vw"
+	jar.updateCode("")
+
+
 
 
 }
