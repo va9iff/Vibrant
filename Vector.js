@@ -71,6 +71,10 @@ class Vector {
     return this;
   }
 
+  static random(len){
+      return new this(Math.random()-0.5,Math.random()-0.5).setLen(len)
+  }
+
   //r: dot product of V and vec
   dot(vec) {
     return this.x * vec.x + this.y * vec.y;

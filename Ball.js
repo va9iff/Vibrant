@@ -44,7 +44,13 @@ class Ball{
 
 		// lets delay it for a while... well, we've started
 		if (!this.process) this.process=this.constructor.process
+
+		this.init = this.constructor.init
+		this.init()
+
 	}
+
+	static init(){}
 
 	set color(newcolor){
 		this.vis.style.backgroundColor = newcolor

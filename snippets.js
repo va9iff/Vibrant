@@ -15,7 +15,7 @@ for(let i=1; i<30; i++){
 } 
 `
 	},{
-		name: "Primary Colors",
+		name: "Standard Colors",
 		code: `
 new Red().pos.x     = -240
 new Green().pos.x   = -160
@@ -44,7 +44,7 @@ Blue.process = function(){
 Blue.populate(20)
 `
 	},{
-		name: "Beating Heart",
+		name: "Red Dance",
 		code: `
 Red.process = function(){
 	this.vel.add(this.pos.vectorTo(V(0,0)).mul(0.2))
@@ -60,6 +60,18 @@ class Matter extends Blue{
 	}
 }
 Matter.populate(25)
+`
+	},{
+		name:"Drip",
+		code:`
+Cyan.init = function(){
+	this.vel.add(Vector.random(100))
+	setTimeout(()=>this.remove(),1500)
+}
+Cyan.process = function(){
+	this.vel.y-=5
+}
+setInterval(()=>new Cyan(), 50)
 `
 	}
 
