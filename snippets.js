@@ -1,4 +1,5 @@
 import {jar} from "./editor.js"
+let startButton = document.querySelector('#start')
 
 let snippets = document.querySelector('#snippets')
 let snippetsPanel = document.querySelector('#snippetsPanel')
@@ -93,7 +94,10 @@ function makeSnippetButton(code){
 	el.className = "snippet"
 	el.innerHTML = code.name
 	snippetsPanel.appendChild(el)
-	el.onclick = () => jar.updateCode(code.code)
+	el.onclick = () => {
+		jar.updateCode(code.code)
+		startButton.style.boxShadow = "0 0 28px 0 hsl(150, 100%,50%)"
+	}
 }
 
 function setupSnippets(){

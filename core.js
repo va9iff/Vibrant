@@ -145,6 +145,8 @@ function start() {
 
 	// borderWrapper.style.transform = "scale(1.1)"
 	startButton.innerHTML = "reset";
+	startButton.style.boxShadow = "0 0 0 0 #0000"
+	
 }
 function restart() {
 	// eval(editor.value);
@@ -173,6 +175,7 @@ function reset() {
 	// startButton.innerHTML = "(re)start";
 
 	startButton.classList.remove("resetongoing")
+
 	// borderWrapper.style.transform = "scale(1)"
 
 	// maybe later
